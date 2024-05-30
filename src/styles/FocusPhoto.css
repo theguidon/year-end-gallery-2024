@@ -10,5 +10,12 @@ body {
 
 .focus-photo {
   cursor: zoom-in;
-  transition: all 1s linear;
+  transition: all 0.5s linear;
+}
+
+.centered {
+  position: fixed;
+  left: 50;
+  transform: translate(50%, -50%);
+  max-width: 50%;
 }
