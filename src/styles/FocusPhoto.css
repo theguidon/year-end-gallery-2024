@@ -1,9 +1,18 @@
-.container {
-  width: 100vh;
+.photo-container {
+  width: 100vw;
 }
 
+/*
+.photo has position absolute and top/left values for readability, not the final design
+*/
 .photo {
+  border: 1px solid white;
+  position: absolute;
+  top: 15%;
+  left: 35%;
   cursor: pointer;
+  padding: 1rem;
+  border-image: url("../assets/images/Frame.png") 50 / 35px round;
 }
 
 .photo-text {

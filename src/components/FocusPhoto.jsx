@@ -20,7 +20,7 @@ const FocusPhoto = () => {
 
   return (
     <div className="photo-container">
-      <div className="photos">
+      <div className="photo-article">
         <img
           className="photo"
           src={Image2}
