@@ -44,3 +44,9 @@ body.active-modal {
   right: 5px;
   cursor: pointer;
 }
+
+@media (max-width: 500px) {
+  .photo {
+    width: 20rem;
+  }
+}
