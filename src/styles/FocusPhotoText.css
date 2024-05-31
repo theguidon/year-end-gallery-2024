@@ -1,6 +1,6 @@
 body {
-  color: #fff;
   line-height: 1.5;
+  overflow-x: hidden;
 }
 
 .photo-text {
@@ -70,20 +70,7 @@ body {
   .photo-text {
     flex-direction: column;
     gap: 1.5rem;
-    margin-bottom: 5rem;
-  }
-
-  .photo-text-info>p:nth-of-type(1) {
-    font-size: 3.25rem;
-  }
-
-  .photo-text-info>p:nth-of-type(2) {
-    font-size: 1.25rem;
-  }
-
-  .photo-text-info>p:nth-of-type(3),
-  .photo-text-info>p:nth-of-type(4) {
-    font-size: 1rem;
+    margin-bottom: 4rem;
   }
 
   .photo-text-info {
