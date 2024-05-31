@@ -14,7 +14,7 @@ const FocusPhoto = () => {
       event.target.style = `position: relative;`;
       document.querySelectorAll(".photo").forEach((photo) => {
         if (photo !== event.target) {
-          photo.style = `visibility: visible;`;
+          photo.style = `display: block;`;
         }
       });
     } else {
@@ -22,7 +22,7 @@ const FocusPhoto = () => {
         event.target.style = `position: fixed; top: 10%; cursor: zoom-out;`;
         document.querySelectorAll(".photo").forEach((photo) => {
           if (photo !== event.target) {
-            photo.style = `visibility: hidden;`;
+            photo.style = `display: none;`;
           }
         });
       }
