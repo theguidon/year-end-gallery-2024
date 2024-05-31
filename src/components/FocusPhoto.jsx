@@ -11,12 +11,12 @@ const FocusPhoto = () => {
   const toggleModal = (event) => {
     setModal(!modal);
     if (modal) {
+      event.target.style = `position: relative;`;
       document.querySelectorAll(".photo").forEach((photo) => {
         if (photo !== event.target) {
           photo.style = `visibility: visible;`;
         }
       });
-      event.target.style = `position: relative;`;
     } else {
       if (event.target.classList.contains("photo")) {
         event.target.style = `position: fixed; top: 10%; cursor: zoom-out;`;
