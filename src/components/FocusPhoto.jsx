@@ -2,46 +2,38 @@ import { useState } from "react";
 import FocusPhotoText from "./FocusPhotoText";
 import Image1 from "../assets/images/Rectangle 72.png";
 import Image2 from "../assets/images/Rectangle 7.png";
+import ExitButton from "../assets/images/ExitButton.svg";
 import "../styles/FocusPhoto.css";
 
 const FocusPhoto = () => {
-  const [focus, setFocus] = useState(true);
+  const [modal, setModal] = useState(false);
 
-  const focusPhoto = (event) => {
-    setFocus(!focus);
-    if (event.target.classList.contains("photo")) {
-      if (focus) {
-        event.target.style = `
-        position: fixed;
-        top: 10%;
-        z-index: 20;
-        `;
-        document.querySelector(".photo-text").style = `display: flex;`;
-        document.querySelector(".overlay-bg").style = `
-        background-image: url("../assets/images/Full View.png");
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 10;
-        `;
+  const toggleModal = (event) => {
+    setModal(!modal);
+    if (modal) {
+      document.querySelectorAll(".photo").forEach((photo) => {
+        if (photo !== event.target) {
+          photo.style = `visibility: visible;`;
+        }
+      });
+      event.target.style = `position: relative;`;
+    } else {
+      if (event.target.classList.contains("photo")) {
+        event.target.style = `position: fixed; top: 10%; cursor: zoom-out;`;
         document.querySelectorAll(".photo").forEach((photo) => {
           if (photo !== event.target) {
             photo.style = `visibility: hidden;`;
           }
         });
-      } else {
-        event.target.style = `z-index: 1`;
-        document.querySelector(".photo-text").style = `display: none;`;
-        document.querySelector(".overlay-bg").style = ``;
-        document.querySelectorAll(".photo").forEach((photo) => {
-          if (photo !== event.target) {
-            photo.style = `visibility: visible;`;
-          }
-        });
       }
-      console.log("Clicked element:", event.target);
     }
   };
+
+  if (modal) {
+    document.body.classList.add("active-modal");
+  } else {
+    document.body.classList.remove("active-modal");
+  }
 
   return (
     <>
@@ -50,17 +42,29 @@ const FocusPhoto = () => {
           className="photo"
           src={Image2}
           alt="Year End Gallery 2023-2024 Photo"
-          onClick={focusPhoto}
+          onClick={toggleModal}
         />
         <img
           className="photo"
           src={Image1}
           alt="Year End Gallery 2023-2024 Photo"
-          onClick={focusPhoto}
+          onClick={toggleModal}
         />
       </div>
-      <div className="overlay-bg"></div>
-      <FocusPhotoText />
+      {modal && (
+        <div className="modal">
+          <div onClick={toggleModal} className="overlay"></div>
+          <div className="modal-content">
+            <FocusPhotoText />
+          </div>
+          <img
+            className="close-modal"
+            src={ExitButton}
+            alt="Exit Button"
+            onClick={toggleModal}
+          />
+        </div>
+      )}
     </>
   );
 };
