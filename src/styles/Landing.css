@@ -1,3 +1,81 @@
+* {
+  overflow: hidden;
+}
+
 body {
   color: #fff;
+}
+
+.landing {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.landing-bg-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-bg {
+  position: relative;
+  width: 90%;
+  height: 90%;
+}
+
+.landing-img {
+  min-width: 100%;
+  min-height: 100%;
+  filter: blur(4px);
+}
+
+.landing-frame {
+  position: absolute;
+  top: 5%;
+  left: 2.5%;
+  width: 95%;
+  height: 90%;
+  border-image: url("../assets/images/LandingFrame.svg") 50 / 35px;
+}
+
+.landing-menu {
+  position: absolute;
+  top: 9%;
+  left: 4.5%;
+}
+
+.landing-battery {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+.landing-text {
+  position: absolute;
+  bottom: 9.5%;
+  left: 4.5%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.landing-text>img:nth-of-type(1) {
+  width: 4rem;
+}
+
+.landing-text>img:nth-of-type(2) {
+  width: 5.5rem;
+}
+
+.landing-inner-frame {
+  position: absolute;
+  top: 12.5%;
+  left: 17.5%;
+  width: 65%;
+  height: 75%;
+  border-image: url("../assets/images/LandingInnerFrame.svg") 50 / 35px;
 }
