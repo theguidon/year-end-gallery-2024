@@ -8,20 +8,21 @@ import "../styles/Landing.css"
 
 const Landing = () => {
   return (
-    <div class="landing">
-      <div class="landing-bg-container">
-        <div class="landing-bg">
-          <img class="landing-img" src={LandingImage} alt="Landing Photo" />
-          <div class="landing-frame"></div>
-          <img class="landing-menu" src={LandingMenu} alt="Menu" />
-          <img class="landing-battery" src={LandingBatteryIcon} alt="" />
-          <div class="landing-text">
+    <div className="landing">
+      <div className="landing-bg-container">
+        <div className="landing-bg">
+          <img className="landing-img" src={LandingImage} alt="Landing Photo" />
+          <div className="landing-frame"></div>
+          <img className="landing-menu" src={LandingMenu} alt="Menu" />
+          <img className="landing-battery" src={LandingBatteryIcon} alt="" />
+          <div className="landing-text">
             <img src={LandingBottomLeftText1} alt="F 3.5" />
             <img src={LandingBottomLeftText2} alt="ISO 100" />
           </div>
-          <div class="landing-inner-frame"></div>
+          <div className="landing-inner-frame"></div>
         </div>
       </div>
+      <div className=""></div>
     </div>
   )
 }
