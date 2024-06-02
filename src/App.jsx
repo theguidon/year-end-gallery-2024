@@ -1,5 +1,11 @@
+import Landing from "./components/Landing";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <Landing />
+    </>
+  )
 }
 
 export default App;
