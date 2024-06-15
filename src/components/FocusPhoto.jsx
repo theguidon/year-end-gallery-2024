@@ -67,6 +67,10 @@ const FocusPhoto = () => {
 
   return (
     <>
+      <header>
+        <p>Year-End Gallery</p>
+        <p>2023-2024</p>
+      </header>
       <div className="photo-container">
         <div id="june-2023" class="photo-date">
           <div className="photo-caption">
