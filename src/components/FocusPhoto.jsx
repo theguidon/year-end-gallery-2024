@@ -49,7 +49,7 @@ const FocusPhoto = () => {
       });
     } else {
       if (event.target.classList.contains("photo")) {
-        event.target.style = `position: absolute; top: 7%; left: 29.15%; cursor: zoom-out; width: 40rem;`;
+        event.target.style = `position: absolute; top: 4.9%; left: 26.15%; cursor: zoom-out; width: 45rem;`;
         document.querySelectorAll(".photo").forEach((photo) => {
           if (photo !== event.target) {
             photo.style = `display: none;`;
