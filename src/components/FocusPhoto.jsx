@@ -311,6 +311,55 @@ const FocusPhoto = () => {
             <p>Love in Water</p>
           </div>
         </div>
+        <div id="march-2024" className="photo-date">
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={UnderTheStars}
+              alt="Under the Stars"
+              onClick={toggleModal}
+            />
+            <p>Dancing Under the Stars</p>
+          </div>
+          <div classsName="photo-caption">
+            <img
+              className="photo"
+              src={AteneoFluid}
+              alt="Ateneo Fluid"
+              onClick={toggleModal}
+            />
+            <p>The Life of an Artist</p>
+          </div>
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={MarchOfWomen}
+              alt="March of Women"
+              onClick={toggleModal}
+            />
+            <p>Women at the Center</p>
+          </div>
+        </div>
+        <div id="april-2024" className="photo-date">
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={JSECChallenge}
+              alt="JSEC Challenge"
+              onClick={toggleModal}
+            />
+            <p>Melting Pot of Flavors</p>
+          </div>
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={FALagnatLaki}
+              alt="FA Lagnat Laki"
+              onClick={toggleModal}
+            />
+            <p>Young Troubles</p>
+          </div>
+        </div>
       </div>
       {modal && (
         <div className="modal">
