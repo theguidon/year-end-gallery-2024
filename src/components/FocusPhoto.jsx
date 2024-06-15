@@ -128,6 +128,91 @@ const FocusPhoto = () => {
             <p>COA RecWeek</p>
           </div>
         </div>
+        <div id="september-2023" className="photo-date">
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={CheerRally}
+              alt="Cheer Rally 2023"
+              onClick={toggleModal}
+            />
+            <p>Cheer Rally 2023</p>
+          </div>
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={MartialLaw}
+              alt="Martial Law Commemoration"
+              onClick={toggleModal}
+            />
+            <p>Martial Law Commemoration</p>
+          </div>
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={TAArdor}
+              alt="TA Ardor"
+              onClick={toggleModal}
+            />
+            <p>TA Ardor</p>
+          </div>
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={ShippeyLecture}
+              alt="Shippey Lecture"
+              onClick={toggleModal}
+            />
+            <p>Shippey Lecture</p>
+          </div>
+        </div>
+        <div id="october-2023" className="photo-date">
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={Talab}
+              alt="TALAB"
+              onClick={toggleModal}
+            />
+            <p>TALAB</p>
+          </div>
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={OBFPalestine}
+              alt="One Big Fight with Palestine"
+              onClick={toggleModal}
+            />
+            <p>One Big Fight with Palestine</p>
+          </div>
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={OneBigPride}
+              alt="One Big Pride"
+              onClick={toggleModal}
+            />
+            <p>One Big Pride</p>
+          </div>
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={Halloween}
+              alt="Halloween in Ateneo"
+              onClick={toggleModal}
+            />
+            <p>Halloween in Ateneo</p>
+          </div>
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={BSKElections}
+              alt="BSK Elections"
+              onClick={toggleModal}
+            />
+            <p>BSK Elections</p>
+          </div>
+        </div>
       </div>
       {modal && (
         <div className="modal">
