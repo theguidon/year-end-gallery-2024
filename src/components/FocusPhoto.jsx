@@ -213,6 +213,55 @@ const FocusPhoto = () => {
             <p>BSK Elections</p>
           </div>
         </div>
+        <div id="november-2023" className="photo-date">
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={DogParade}
+              alt="LSOGC Dog Parade"
+              onClick={toggleModal}
+            />
+            <p>LSOGC Dog Parade</p>
+          </div>
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={TransportStrike}
+              alt="PISTON Transport Strike"
+              onClick={toggleModal}
+            />
+            <p>PISTON Transport Strike</p>
+          </div>
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={ChristmasTree}
+              alt="MVP Christmas Tree"
+              onClick={toggleModal}
+            />
+            <p>MVP Christmas Tree</p>
+          </div>
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={PalestineSolidarity}
+              alt="Multisectoral mobilization in solidarity with Palestine"
+              onClick={toggleModal}
+            />
+            <p>Stand with Palestine</p>
+          </div>
+        </div>
+        <div id="december-2023" className="photo-date">
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={NorthCarPark}
+              alt="North Car Park Project Mobilization"
+              onClick={toggleModal}
+            />
+            <p>Standing Behind Trees</p>
+          </div>
+        </div>
       </div>
       {modal && (
         <div className="modal">
