@@ -325,7 +325,7 @@ const FocusPhoto = () => {
             />
             <p>Dancing Under the Stars</p>
           </div>
-          <div classsName="photo-caption">
+          <div className="photo-caption">
             <img
               className="photo"
               src={AteneoFluid}
