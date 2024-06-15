@@ -1,5 +1,6 @@
 * {
   overflow-x: hidden;
+  color: #fff;
 }
 
 /*
@@ -14,13 +15,19 @@
   gap: 2rem;
 }
 
+.photo-caption > p {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
 .photo {
   position: relative;
   z-index: 1;
   border: 1px solid white;
   cursor: zoom-in;
+  width: 30rem;
   padding: 1rem;
-  border-image: url("../assets/images/Frame.png") 50 / 35px round;
+  border-image: url("../assets/images/PhotoFrame.png") 50 / 35px round;
 }
 
 body.active-modal {
