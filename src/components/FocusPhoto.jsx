@@ -78,6 +78,55 @@ const FocusPhoto = () => {
             />
             <p>Blue Rose</p>
           </div>
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={PrideMarch}
+              alt="Pride March"
+              onClick={toggleModal}
+            />
+            <p>QC Pride March</p>
+          </div>
+        </div>
+        <div id="july-2023" className="photo-date">
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={Sona}
+              alt="People's SONA"
+              onClick={toggleModal}
+            />
+            <p>People's SONA</p>
+          </div>
+        </div>
+        <div id="august-2023" className="photo-date">
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={OrsemMuli}
+              alt="OrSem Muli"
+              onClick={toggleModal}
+            />
+            <p>OrSem Muli</p>
+          </div>
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={ONight}
+              alt="O-Night"
+              onClick={toggleModal}
+            />
+            <p>O-Night</p>
+          </div>
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={RecWeek}
+              alt="COA RecWeek"
+              onClick={toggleModal}
+            />
+            <p>COA RecWeek</p>
+          </div>
         </div>
       </div>
       {modal && (
