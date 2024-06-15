@@ -47,12 +47,20 @@ const FocusPhoto = () => {
           photo.style = `display: block;`;
         }
       });
+      document.querySelectorAll(".photo-caption").forEach((element) => {
+        element.style = `display: flex;`;
+      });
     } else {
       if (event.target.classList.contains("photo")) {
         event.target.style = `position: absolute; top: 4.9%; left: 26.15%; cursor: zoom-out; width: 45rem;`;
         document.querySelectorAll(".photo").forEach((photo) => {
           if (photo !== event.target) {
             photo.style = `display: none;`;
+          }
+        });
+        document.querySelectorAll(".photo-caption").forEach((element) => {
+          if (element.querySelector("img") !== event.target) {
+            element.style = `display: none;`;
           }
         });
       }
