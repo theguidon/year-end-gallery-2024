@@ -360,6 +360,26 @@ const FocusPhoto = () => {
             <p>Young Troubles</p>
           </div>
         </div>
+        <div id="may-2024" className="photo-date">
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={LaborDayProtest}
+              alt="Labor Day Protest"
+              onClick={toggleModal}
+            />
+            <p>Sahod Itaas, Presyo Ibaba</p>
+          </div>
+          <div className="photo-caption">
+            <img
+              className="photo"
+              src={Bonfire}
+              alt="Ateneo Bonfire"
+              onClick={toggleModal}
+            />
+            <p>Win or Lose</p>
+          </div>
+        </div>
       </div>
       {modal && (
         <div className="modal">
