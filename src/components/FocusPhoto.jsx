@@ -76,7 +76,7 @@ const FocusPhoto = () => {
               alt="Blue Rose"
               onClick={toggleModal}
             />
-            <p>Blue Rose</p>
+            <p>Blossoming Again</p>
           </div>
           <div className="photo-caption">
             <img
@@ -85,7 +85,7 @@ const FocusPhoto = () => {
               alt="Pride March"
               onClick={toggleModal}
             />
-            <p>QC Pride March</p>
+            <p>Pride in Progress</p>
           </div>
         </div>
         <div id="july-2023" className="photo-date">
@@ -96,7 +96,7 @@ const FocusPhoto = () => {
               alt="People's SONA"
               onClick={toggleModal}
             />
-            <p>People's SONA</p>
+            <p>Voices of the People</p>
           </div>
         </div>
         <div id="august-2023" className="photo-date">
@@ -107,7 +107,7 @@ const FocusPhoto = () => {
               alt="OrSem Muli"
               onClick={toggleModal}
             />
-            <p>OrSem Muli</p>
+            <p>Welcome Home, Batch 2023</p>
           </div>
           <div className="photo-caption">
             <img
@@ -116,7 +116,7 @@ const FocusPhoto = () => {
               alt="O-Night"
               onClick={toggleModal}
             />
-            <p>O-Night</p>
+            <p>Dance the Night Away</p>
           </div>
           <div className="photo-caption">
             <img
@@ -125,7 +125,7 @@ const FocusPhoto = () => {
               alt="COA RecWeek"
               onClick={toggleModal}
             />
-            <p>COA RecWeek</p>
+            <p>Exploring Passions, Forging Bonds</p>
           </div>
         </div>
         <div id="september-2023" className="photo-date">
@@ -136,7 +136,7 @@ const FocusPhoto = () => {
               alt="Cheer Rally 2023"
               onClick={toggleModal}
             />
-            <p>Cheer Rally 2023</p>
+            <p>Blue Eagles Take Flight</p>
           </div>
           <div className="photo-caption">
             <img
@@ -145,7 +145,7 @@ const FocusPhoto = () => {
               alt="Martial Law Commemoration"
               onClick={toggleModal}
             />
-            <p>Martial Law Commemoration</p>
+            <p>Ateneo Remembers</p>
           </div>
           <div className="photo-caption">
             <img
@@ -154,7 +154,7 @@ const FocusPhoto = () => {
               alt="TA Ardor"
               onClick={toggleModal}
             />
-            <p>TA Ardor</p>
+            <p>Love and Fury</p>
           </div>
           <div className="photo-caption">
             <img
@@ -163,7 +163,7 @@ const FocusPhoto = () => {
               alt="Shippey Lecture"
               onClick={toggleModal}
             />
-            <p>Shippey Lecture</p>
+            <p>Neidorf on Beowulf</p>
           </div>
         </div>
         <div id="october-2023" className="photo-date">
@@ -174,7 +174,7 @@ const FocusPhoto = () => {
               alt="TALAB"
               onClick={toggleModal}
             />
-            <p>TALAB</p>
+            <p>From Dialogue to Deeds</p>
           </div>
           <div className="photo-caption">
             <img
@@ -183,7 +183,7 @@ const FocusPhoto = () => {
               alt="One Big Fight with Palestine"
               onClick={toggleModal}
             />
-            <p>One Big Fight with Palestine</p>
+            <p>Fighting for Freedom</p>
           </div>
           <div className="photo-caption">
             <img
@@ -192,7 +192,7 @@ const FocusPhoto = () => {
               alt="One Big Pride"
               onClick={toggleModal}
             />
-            <p>One Big Pride</p>
+            <p>Empowered and United</p>
           </div>
           <div className="photo-caption">
             <img
@@ -201,7 +201,7 @@ const FocusPhoto = () => {
               alt="Halloween in Ateneo"
               onClick={toggleModal}
             />
-            <p>Halloween in Ateneo</p>
+            <p>Costumes and Thrills</p>
           </div>
           <div className="photo-caption">
             <img
@@ -210,7 +210,7 @@ const FocusPhoto = () => {
               alt="BSK Elections"
               onClick={toggleModal}
             />
-            <p>BSK Elections</p>
+            <p>Reviving Barangay Politics</p>
           </div>
         </div>
         <div id="november-2023" className="photo-date">
@@ -221,7 +221,7 @@ const FocusPhoto = () => {
               alt="LSOGC Dog Parade"
               onClick={toggleModal}
             />
-            <p>LSOGC Dog Parade</p>
+            <p>Ateneans' Best Friends</p>
           </div>
           <div className="photo-caption">
             <img
@@ -230,7 +230,7 @@ const FocusPhoto = () => {
               alt="PISTON Transport Strike"
               onClick={toggleModal}
             />
-            <p>PISTON Transport Strike</p>
+            <p>Pagpatuloy ng Laban</p>
           </div>
           <div className="photo-caption">
             <img
@@ -239,7 +239,7 @@ const FocusPhoto = () => {
               alt="MVP Christmas Tree"
               onClick={toggleModal}
             />
-            <p>MVP Christmas Tree</p>
+            <p>Leading the Light</p>
           </div>
           <div className="photo-caption">
             <img
