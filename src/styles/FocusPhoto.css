@@ -1,0 +1,92 @@
+* {
+  overflow-x: hidden;
+  color: #fff;
+}
+
+header {
+  width: 100vw;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+header > p:nth-of-type(1) {
+  color: #e4bb4e;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+header > p:nth-of-type(2) {
+  font-size: 1rem;
+  text-align: center;
+}
+
+/*
+.photo-container isn't flex in the final design, only for testing purposes
+*/
+.photo-container {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.photo-date {
+  width: 100%;
+}
+
+.photo-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.photo-caption > p {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.photo {
+  position: relative;
+  z-index: 1;
+  border: 1px solid white;
+  cursor: zoom-in;
+  width: 30rem;
+  padding: 1rem;
+  border-image: url("../assets/images/PhotoFrame.png") 50 / 35px round;
+}
+
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.overlay {
+  background-image: url("../assets/images/Full View.svg");
+}
+
+.close-modal {
+  position: absolute;
+  top: 5px;
+  right: 22px;
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .photo {
+    width: 20rem;
+  }
+}
