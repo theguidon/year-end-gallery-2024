@@ -1,5 +1,11 @@
+import FocusPhoto from "./components/FocusPhoto";
+
 function App() {
-  return <></>;
+  return (
+    <>
+      <FocusPhoto />
+    </>
+  );
 }
 
 export default App;
