@@ -1,15 +1,18 @@
-import React from 'react'
-import LandingImage from "../assets/images/LandingImage.png"
-import LandingMenu from "../assets/images/LandingMenu.svg"
-import LandingBatteryIcon from "../assets/images/LandingBatteryIcon.svg"
-import LandingBottomLeftText1 from "../assets/images/F 3.5.svg"
-import LandingBottomLeftText2 from "../assets/images/ISO 100.svg"
-import Logo from "../assets/images/Logo.png"
-import StartButton from "../assets/images/StartButton.svg"
-import "../styles/Landing.css"
+import LandingImage from "../assets/images/LandingImage.png";
+import LandingMenu from "../assets/images/LandingMenu.svg";
+import LandingBatteryIcon from "../assets/images/LandingBatteryIcon.svg";
+import LandingBottomLeftText1 from "../assets/images/F 3.5.svg";
+import LandingBottomLeftText2 from "../assets/images/ISO 100.svg";
+import Logo from "../assets/images/Logo.png";
+import StartButton from "../assets/images/StartButton.svg";
+import "../styles/Landing.css";
+
+import { useState } from "react";
 
 const Landing = () => {
-  return (
+  const [isLandingVisible, setIsLandingVisible] = useState(true);
+
+  return isLandingVisible ? (
     <div className="landing">
       <div className="landing-container">
         <div className="landing-bg">
@@ -25,13 +28,19 @@ const Landing = () => {
         </div>
         <div className="landing-hero">
           <img src={Logo} alt="The GUIDON" />
-          <p>Year End Gallery</p>
+          <p>Year-End Gallery</p>
           <p>2023-2024</p>
-          <img src={StartButton} alt="Start" />
+          <img
+            src={StartButton}
+            alt="Start"
+            onClick={() => setIsLandingVisible(false)}
+          />
         </div>
       </div>
     </div>
-  )
-}
+  ) : (
+    <></>
+  );
+};
 
-export default Landing
+export default Landing;

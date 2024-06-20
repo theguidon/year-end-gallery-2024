@@ -35,6 +35,8 @@ import Bonfire from "../assets/images/051724-Ateneo Bonfire-Fernando-21.jpg";
 import ExitButton from "../assets/images/ExitButton.svg";
 import "../styles/FocusPhoto.css";
 
+import Credits from "./Credits.jsx";
+
 const FocusPhoto = () => {
   const [modal, setModal] = useState(false);
 
@@ -80,7 +82,7 @@ const FocusPhoto = () => {
         <p>2023-2024</p>
       </header>
       <div className="photo-container">
-        <div id="june-2023" class="photo-date">
+        <div id="june-2023" className="photo-date">
           <div className="photo-caption">
             <img
               className="photo"
@@ -392,6 +394,7 @@ const FocusPhoto = () => {
             <p>Win or Lose</p>
           </div>
         </div>
+        <Credits />
       </div>
       {modal && (
         <div className="modal">

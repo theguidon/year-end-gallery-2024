@@ -1,23 +1,28 @@
-* {
-  overflow-x: hidden;
-  color: #fff;
-}
-
 header {
-  width: 100vw;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+	width: fit-content;
+	margin-block: 2rem;
+	padding: 1rem;
+  border-image: url("../assets/images/PhotoFrame2.png") 50 / 35px round;
+	position: relative;
+	left: 50%;
+	translate: -50% 0;
+	font-family: "KT Projekt";
 }
 
 header > p:nth-of-type(1) {
   color: #e4bb4e;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   text-align: center;
 }
 
 header > p:nth-of-type(2) {
-  font-size: 1rem;
+  font-size: 2rem;
+	line-height: 2rem;
   text-align: center;
+	background: linear-gradient(234deg, #FFF 11.87%, rgba(255, 255, 255, 0.22) 68.17%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 /*
@@ -46,7 +51,12 @@ header > p:nth-of-type(2) {
 
 .photo-caption > p {
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 4.5rem;
+	font-family: "KT Projekt";
+	background: linear-gradient(234deg, #FFF 11.87%, rgba(255, 255, 255, 0.30) 68.17%);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .photo {

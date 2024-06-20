@@ -1,0 +1,75 @@
+.credits {
+	position: relative;
+	width: 100vw;
+	background: black;
+	background-clip: padding-box;
+	border-top: solid 1px transparent;
+	font-family: "KT Projekt";
+	display: flex;
+	flex-direction: row;
+}
+.credits::before {
+	content: "";
+	background: linear-gradient(to left, #181818, gray);
+	position: absolute;
+	inset: 0;
+	margin-top: -1px;
+	z-index: -1;
+}
+
+.credits-left {
+	max-width: 33rem;
+	background: black;
+	padding: 2.5rem;
+	flex-shrink: 0;
+}
+.credits-left p:nth-of-type(1) {
+	font-size: 7.5rem;
+	line-height: 90%;
+	margin-top: 2rem; margin-bottom: 1rem;
+}
+.credits-left p:nth-of-type(2) {
+	font-size: 2rem;
+	background: linear-gradient(to top, black, white);
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.credits-right-wrapper {
+	position: relative;
+	background-clip: padding-box;
+	padding-left: 1px;
+	background: linear-gradient(to bottom, #181818, gray);
+}
+.credits-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: 2rem;
+	padding: 2.5rem;
+	background: black;
+}
+.credits-right div h3 {
+	font-size: 2.5rem;
+	background: linear-gradient(to right, dimgray, white);
+	width: fit-content;
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.credits-right div p {
+	font-size: 1.5rem;
+}
+
+@media (max-width: 1000px) {
+	.credits {
+		flex-direction: column;
+	}
+
+	.credits-right-wrapper {
+		padding-left: 0;
+		padding-top: 1px;
+		background: linear-gradient(to right, #181818, gray);
+	}
+}
