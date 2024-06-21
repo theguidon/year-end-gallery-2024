@@ -62,6 +62,19 @@
 	font-size: 1.5rem;
 }
 
+@media (max-width: 640px) {
+	.credits-left p:nth-of-type(1) {
+		font-size: 4.5rem;
+	}
+	
+	.credits-right div h3 {
+		font-size: 2rem;
+	}
+	.credits-right div p {
+		font-size: 1.25rem;
+	}
+}
+
 @media (max-width: 1000px) {
 	.credits {
 		flex-direction: column;
