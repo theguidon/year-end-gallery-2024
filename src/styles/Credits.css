@@ -4,7 +4,6 @@
 	background: black;
 	background-clip: padding-box;
 	border-top: solid 1px transparent;
-	font-family: "KT Projekt";
 	display: flex;
 	flex-direction: row;
 }

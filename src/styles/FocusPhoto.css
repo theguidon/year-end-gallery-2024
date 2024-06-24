@@ -6,7 +6,6 @@ header {
 	position: relative;
 	left: 50%;
 	translate: -50% 0;
-	font-family: "KT Projekt";
 }
 
 header > p:nth-of-type(1) {
@@ -25,78 +24,34 @@ header > p:nth-of-type(2) {
 	-webkit-text-fill-color: transparent;
 }
 
-/*
-.photo-container isn't flex in the final design, only for testing purposes
-*/
 .photo-container {
   width: 100vw;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 2rem;
+	height: 1000rem;
+	position: relative;
 }
 
-.photo-date {
-  width: 100%;
+.photo-preview {
+	position: absolute;
+	inset: 0 50% auto auto;
+	transform: translateX(50%);
+	text-align: center;
+	height: 20rem;
 }
-
-.photo-caption {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 2rem;
+.photo-preview img {
+	max-height: 100%;
+	filter: grayscale(100%);
+	transition: ease-in-out 200ms;
 }
-
-.photo-caption > p {
-  text-align: center;
-  font-size: 4.5rem;
-	font-family: "KT Projekt";
-	background: linear-gradient(234deg, #FFF 11.87%, rgba(255, 255, 255, 0.30) 68.17%);
+.photo-preview img:hover {
+	filter: none;
+}
+.photo-preview h2 {
+	text-align: center;
+	font-size: 4.5rem;
+	font-weight: 500;
+	background: linear-gradient(234deg, #FFF 11.87%, rgba(255, 255, 255, 0.22) 68.17%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 
-.photo {
-  position: relative;
-  z-index: 1;
-  border: 1px solid white;
-  cursor: zoom-in;
-  width: 30rem;
-  padding: 1rem;
-  border-image: url("../assets/images/PhotoFrame.png") 50 / 35px round;
-}
-
-body.active-modal {
-  overflow-y: hidden;
-}
-
-.modal,
-.overlay {
-  width: 100vw;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
-.overlay {
-  background-image: url("../assets/images/Full View.svg");
-}
-
-.close-modal {
-  position: absolute;
-  top: 5px;
-  right: 22px;
-  cursor: pointer;
-}
-
-@media (max-width: 500px) {
-  .photo {
-    width: 20rem;
-  }
-}
