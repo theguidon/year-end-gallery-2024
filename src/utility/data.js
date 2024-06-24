@@ -835,7 +835,7 @@ const photoData = [
         credit: "Jillian Santos",
       },
       {
-        url: orphie1,
+        url: orphie2,
         date: "January 31 2024",
         location: "Doreen Black Box Theater",
         credit: "Jio Japson",
@@ -849,19 +849,19 @@ const photoData = [
       "Celebrations of love overflowed within Ateneo grounds and along Katipunan Avenue for Valentine’s Day. Various student organizations installed booths selling flowers, while vendors along Katipunan sold heart-shaped balloons.",
     photos: [
       {
-        url: orphie1,
+        url: valentine1,
         date: "February 14, 2024",
         location: "Katipunan Avenue, Quezon City",
         credit: "Karl Dimaculangan",
       },
       {
-        url: orphie2,
+        url: valentine2,
         date: "February 14, 2024",
         location: "Katipunan Avenue, Quezon City",
         credit: "Patrick Reyes-Santos",
       },
       {
-        url: orphie3,
+        url: valentine3,
         date: "February 14, 2024",
         location: "Katipunan Avenue, Quezon City",
         credit: "Patrick Reyes-Santos",
