@@ -26,15 +26,16 @@ header > p:nth-of-type(2) {
 
 .photo-container {
   width: 100vw;
-	height: 1315rem;
+	height: 1320rem;
 	position: relative;
+	margin-top: 5rem;
 }
 
 .photo-container .landing-menu {
   position: fixed;
-	inset: 2rem auto auto 2rem;
+	inset: 3rem auto auto 3rem;
   cursor: pointer;
-	z-index: 10;
+	z-index: 1;
 }
 
 .photo-preview {
@@ -75,6 +76,7 @@ header > p:nth-of-type(2) {
 .marquee {
 	rotate: -3deg;
 	margin-bottom: 5rem;
+	z-index: -1;
 }
 .marquee-photo {
 	width: 15rem;
