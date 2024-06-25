@@ -8,10 +8,13 @@ import StartButtonDefault from "../assets/images/StartButtonDefault.svg";
 import StartButtonHover from "../assets/images/StartButtonHover.svg";
 import "../styles/Landing.css";
 
+import Menu from "./Menu.jsx";
+
 import { useState } from "react";
 
 const Landing = ({ setIsLandingVisible }) => {
   const [startSrc, setStartSrc] = useState(StartButtonDefault);
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
 
   return (
     <div className="landing">
@@ -19,7 +22,12 @@ const Landing = ({ setIsLandingVisible }) => {
         <div className="landing-bg">
           <img className="landing-img" src={LandingImage} alt="Landing Photo" />
           <div className="landing-frame"></div>
-          <img className="landing-menu" src={LandingMenu} alt="Menu" />
+          <img
+            className="landing-menu"
+            src={LandingMenu}
+            alt="Menu"
+            onClick={() => setIsMenuVisible(true)}
+          />
           <img className="landing-battery" src={LandingBatteryIcon} alt="" />
           <div className="landing-text">
             <img src={LandingBottomLeftText1} alt="F 3.5" />
@@ -39,6 +47,7 @@ const Landing = ({ setIsLandingVisible }) => {
             onMouseLeave={() => setStartSrc(StartButtonDefault)}
           />
         </div>
+        <Menu isMenuVisible={isMenuVisible} setIsMenuVisible={setIsMenuVisible} setIsLandingVisible={setIsLandingVisible} />
       </div>
     </div>
   );

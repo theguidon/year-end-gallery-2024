@@ -5,6 +5,9 @@ import Credits from "./Credits.jsx";
 import Modal from "./Modal.jsx";
 import photoData from "../utility/data.js";
 
+import LandingMenu from "../assets/images/LandingMenu.svg";
+import Menu from "./Menu.jsx";
+
 import Marquee from "react-fast-marquee";
 
 const FocusPhoto = ({ setIsLandingVisible }) => {
@@ -15,6 +18,8 @@ const FocusPhoto = ({ setIsLandingVisible }) => {
 
   const [modalEvent, setModalEvent] = useState("");
 
+  const [isMenuVisible, setIsMenuVisible] = useState(false);
+
   return (
     <>
       <header>
@@ -22,9 +27,17 @@ const FocusPhoto = ({ setIsLandingVisible }) => {
         <p>2023-2024</p>
       </header>
       <div className="photo-container">
+        <img
+          className="landing-menu"
+          src={LandingMenu}
+          alt="Menu"
+          onClick={() => setIsMenuVisible(true)}
+        />
+        <Menu isMenuVisible={isMenuVisible} setIsMenuVisible={setIsMenuVisible}  />
         {photoData.map((event, i) => {
           return (
             <button
+              id={event.event}
               key={event.title}
               className="photo-preview"
               style={{ translate: `0 ${200 * i}%` }}

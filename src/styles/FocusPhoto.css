@@ -30,6 +30,13 @@ header > p:nth-of-type(2) {
 	position: relative;
 }
 
+.photo-container .landing-menu {
+  position: fixed;
+	inset: 2rem auto auto 2rem;
+  cursor: pointer;
+	z-index: 10;
+}
+
 .photo-preview {
 	position: absolute;
 	inset: 0 50% auto auto;

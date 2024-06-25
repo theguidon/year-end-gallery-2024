@@ -1,0 +1,45 @@
+.menuWrapper {
+	position: fixed;
+	inset: 0;
+	transition: 1s;
+	pointer-events: none;
+	z-index: 50;
+}
+
+.menu {
+	height: 100vh;
+	width: 17.75rem;
+	position: absolute;
+	inset: 0 auto auto 0;
+	background: black;
+	border-right: 1px solid #E4BB4E;
+	padding: 2.5rem;
+	font-size: 1.5rem;
+	overflow: scroll;
+	translate: -100% 0;
+	transition: 1s;
+	pointer-events: auto;
+}
+
+.menu-header {
+	color: #E4BB4E;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.menu-header svg {
+	cursor: pointer;
+}
+
+.events-list {
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	margin-top: 1.5rem;
+}
+.events-list a {
+	color: white;
+	text-decoration: none;
+	font-weight: 400;
+}
