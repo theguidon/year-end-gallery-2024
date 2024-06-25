@@ -80,7 +80,6 @@ const FocusPhoto = ({ setIsLandingVisible }) => {
         <a
           className="return-to-top"
           href="#"
-          onClick={() => setIsLandingVisible(true)}
         >
           Return to Top
         </a>
