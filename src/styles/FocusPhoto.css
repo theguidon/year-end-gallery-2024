@@ -2,7 +2,7 @@ header {
 	width: fit-content;
 	margin-block: 2rem;
 	padding: 1rem;
-  border-image: url("../assets/images/PhotoFrame2.png") 50 / 35px round;
+  border-image: url("../assets/images/PhotoFrame2.png") 50 / 35px;
 	position: relative;
 	left: 50%;
 	translate: -50% 0;
@@ -26,7 +26,7 @@ header > p:nth-of-type(2) {
 
 .photo-container {
   width: 100vw;
-	height: 1000rem;
+	height: 1315rem;
 	position: relative;
 }
 
@@ -35,17 +35,23 @@ header > p:nth-of-type(2) {
 	inset: 0 50% auto auto;
 	transform: translateX(50%);
 	text-align: center;
+	width: 90%;
 	height: 20rem;
+	background: none;
+	cursor: pointer;
+	border: none;
 }
 .photo-preview img {
 	max-height: 100%;
 	filter: grayscale(100%);
 	transition: ease-in-out 200ms;
+	border-image: url("../assets/images/PhotoFrame.png") 1 / 1px / 1rem;
 }
 .photo-preview img:hover {
 	filter: none;
 }
 .photo-preview h2 {
+	margin-top: 1.5rem;
 	text-align: center;
 	font-size: 4.5rem;
 	font-weight: 500;
@@ -54,4 +60,3 @@ header > p:nth-of-type(2) {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
-

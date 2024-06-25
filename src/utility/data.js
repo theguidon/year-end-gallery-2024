@@ -225,7 +225,7 @@ const photoData = [
         credit: "Naomi Soriano",
       },
       {
-        url: sona2,
+        url: sona3,
         date: "July 24, 2023",
         location: "Commonwealth Avenue",
         credit: "Naomi Soriano",
@@ -487,13 +487,13 @@ const photoData = [
         credit: "Veida Bongco",
       },
       {
-        url: talab1,
+        url: talab5,
         date: "October 23, 2023",
         location: "Ateneo de Manila University",
         credit: "Jacob D. Yap",
       },
       {
-        url: talab1,
+        url: talab6,
         date: "October 24, 2023",
         location: "Ateneo de Manila University",
         credit: "Finomena Chang",
@@ -803,19 +803,19 @@ const photoData = [
         credit: "Finomena Chang",
       },
       {
-        url: parkDisc1,
+        url: parkDisc2,
         date: "January 15, 2024",
         location: "Leong Hall Steps",
         credit: "Finomena Chang",
       },
       {
-        url: parkDisc1,
+        url: parkDisc3,
         date: "January 15, 2024",
         location: "Leong Hall Steps",
         credit: "Finomena Chang",
       },
       {
-        url: parkDisc1,
+        url: parkDisc4,
         date: "January 15, 2024",
         location: "Leong Hall Steps",
         credit: "Finomena Chang",
@@ -1027,7 +1027,7 @@ const photoData = [
         credit: "Liana Fernando",
       },
       {
-        url: womenMarch1,
+        url: womenMarch4,
         date: "April 15, 2024",
         location: "April 15, 2024",
         credit: "Miguel Abad",
@@ -1085,13 +1085,13 @@ const photoData = [
         credit: "Naomi Soriano",
       },
       {
-        url: lagnat1,
+        url: lagnat3,
         date: "April 24, 2024",
         location: "Gonzaga Exhibit Hall",
         credit: "Celina Iñgel",
       },
       {
-        url: lagnat1,
+        url: lagnat4,
         date: "April 24, 2024",
         location: "Gonzaga Exhibit Hall",
         credit: "Celina Iñgel",

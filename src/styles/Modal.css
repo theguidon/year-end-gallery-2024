@@ -1,0 +1,95 @@
+.modal-wrapper {
+	background: black;
+	position: fixed;
+	inset: 0;
+	display: flex;
+	justify-content: center;
+}
+	
+.modal {
+	width: 90%;
+	max-width: 65rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 2rem;
+}
+
+.modal-photo {
+	max-width: calc(100% - 2rem);
+	border-image: url("../assets/images/PhotoFrame.png") 1 / 1px / 1rem;
+}
+
+.modal-photo-nav {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1rem;
+}
+.modal-photo-nav img {
+	cursor: pointer;
+}
+.modal-photo-nav img:nth-of-type(2) {
+	scale: -1 1;
+}
+.photo-index {
+	width: 0.7rem;
+	height: 0.7rem;
+	border-radius: 99rem;
+	background: rgba(255, 255, 255, 0.15);
+}
+
+.modal-text {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 2rem;
+}
+
+.modal .meta .credit {
+	text-transform: uppercase;
+}
+.modal .meta h2 {
+	color: #E4BB4E;
+	font-size: 3.5rem;
+	margin-bottom: 0.5rem;
+	font-weight: 500;
+}
+.modal .meta p {
+	color: #B1ACAC;
+	font-size: 1.25rem;
+}
+
+.modal-description {
+	font-size: 1.25rem;
+	max-width: 60%;
+}
+
+.close-button {
+	background: url(../assets/images/CloseButtonDefault.svg) center;
+	border: none;
+	position: absolute;
+	inset: 1.5rem 1.5rem auto auto;
+	width: 2.5rem;
+	height: 2.5rem;
+	cursor: pointer;
+}
+.close-button:hover {
+	background: url(../assets/images/CloseButtonHover.svg) center;
+}
+
+.modal .deco .deco-plus-square {
+	position: absolute;
+	z-index: -1;
+}
+.modal .deco .deco-plus-square:nth-of-type(1) {
+	inset: auto 5% 5% auto;
+	width: 8rem;
+}
+.modal .deco .deco-plus-square:nth-of-type(2) {
+	inset: 8% auto auto 1%;
+	width: 10rem;
+}

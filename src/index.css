@@ -4,12 +4,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+	font-family: "KT Projekt";
 }
 
 :root {
   background: black;
-}
-
-html {
-	font-family: "KT Projekt";
 }

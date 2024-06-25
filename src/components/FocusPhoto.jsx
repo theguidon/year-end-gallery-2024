@@ -1,11 +1,17 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "../styles/FocusPhoto.css";
 
 import Credits from "./Credits.jsx";
+import Modal from "./Modal.jsx";
 import photoData from "../utility/data.js";
 
 const FocusPhoto = () => {
-  const [modal, setModal] = useState(false);
+  const [isModal, setIsModal] = useState(false);
+  useEffect(() => {
+    document.body.style.overflow = isModal ? "hidden" : "unset";
+  }, [isModal]);
+
+  const [modalEvent, setModalEvent] = useState("");
 
   return (
     <>
@@ -16,18 +22,23 @@ const FocusPhoto = () => {
       <div className="photo-container">
         {photoData.map((event, i) => {
           return (
-            <div
+            <button
               key={event.title}
               className="photo-preview"
-              style={{ top: `${2.5 * i}%` }}
+              style={{ translate: `0 ${200 * i}%` }}
+              onClick={() => {
+                setModalEvent(event);
+                setIsModal(true);
+              }}
             >
-              <img src={event.photos[0].url} />
+              <img src={event.photos[0].url} loading="lazy" />
               <h2>{event.event}</h2>
-            </div>
+            </button>
           );
         })}
       </div>
       <Credits />
+      {isModal ? <Modal event={modalEvent} setIsModal={setIsModal} /> : <></>}
     </>
   );
 };
