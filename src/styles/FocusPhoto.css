@@ -60,3 +60,23 @@ header > p:nth-of-type(2) {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
+.revoir {
+	text-align: center;
+	margin-bottom: 5rem;
+}
+.marquee {
+	rotate: -3deg;
+	margin-bottom: 5rem;
+}
+.marquee-photo {
+	width: 15rem;
+	height: 15rem;
+	object-fit: cover;
+	margin-right: 1rem;
+}
+.return-to-top {
+	text-decoration: underline;
+	color: #e4bb4e;
+	font-size: 1.5rem;
+}

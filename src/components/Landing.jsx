@@ -4,15 +4,16 @@ import LandingBatteryIcon from "../assets/images/LandingBatteryIcon.svg";
 import LandingBottomLeftText1 from "../assets/images/F 3.5.svg";
 import LandingBottomLeftText2 from "../assets/images/ISO 100.svg";
 import Logo from "../assets/images/Logo.png";
-import StartButton from "../assets/images/StartButton.svg";
+import StartButtonDefault from "../assets/images/StartButtonDefault.svg";
+import StartButtonHover from "../assets/images/StartButtonHover.svg";
 import "../styles/Landing.css";
 
 import { useState } from "react";
 
-const Landing = () => {
-  const [isLandingVisible, setIsLandingVisible] = useState(true);
+const Landing = ({ setIsLandingVisible }) => {
+  const [startSrc, setStartSrc] = useState(StartButtonDefault);
 
-  return isLandingVisible ? (
+  return (
     <div className="landing">
       <div className="landing-container">
         <div className="landing-bg">
@@ -31,15 +32,15 @@ const Landing = () => {
           <p>Year-End Gallery</p>
           <p>2023-2024</p>
           <img
-            src={StartButton}
+            src={startSrc}
             alt="Start"
             onClick={() => setIsLandingVisible(false)}
+            onMouseEnter={() => setStartSrc(StartButtonHover)}
+            onMouseLeave={() => setStartSrc(StartButtonDefault)}
           />
         </div>
       </div>
     </div>
-  ) : (
-    <></>
   );
 };
 

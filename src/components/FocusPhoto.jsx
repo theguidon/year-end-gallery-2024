@@ -5,7 +5,9 @@ import Credits from "./Credits.jsx";
 import Modal from "./Modal.jsx";
 import photoData from "../utility/data.js";
 
-const FocusPhoto = () => {
+import Marquee from "react-fast-marquee";
+
+const FocusPhoto = ({ setIsLandingVisible }) => {
   const [isModal, setIsModal] = useState(false);
   useEffect(() => {
     document.body.style.overflow = isModal ? "hidden" : "unset";
@@ -36,6 +38,27 @@ const FocusPhoto = () => {
             </button>
           );
         })}
+      </div>
+      <div className="revoir">
+        <Marquee className="marquee">
+          {photoData.map((event, i) => {
+            return (
+              <img
+                key={i}
+                src={event.photos[0].url}
+                className="marquee-photo"
+                loading="lazy"
+              />
+            );
+          })}
+        </Marquee>
+        <a
+          className="return-to-top"
+          href="#"
+          onClick={() => setIsLandingVisible(true)}
+        >
+          Return to Top
+        </a>
       </div>
       <Credits />
       {isModal ? <Modal event={modalEvent} setIsModal={setIsModal} /> : <></>}
