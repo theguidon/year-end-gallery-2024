@@ -237,8 +237,50 @@ header > p:nth-of-type(2) {
 /* december */
 #north-car-park-project-mobilization {
 	inset: 400rem 50% auto auto;
-	translate: calc(50% - 12rem) 0;
+	translate: calc(50% + 12rem) 0;
 }
 #north-car-park-project-mobilization h2 {
-	inset: -5% -180% auto auto;
+	inset: -5% auto auto -180%;
+	text-align: right;
+}
+
+/* january */
+#north-carpark-issue-march-and-multi-sectoral-discussion {
+	inset: 430rem 50% auto auto;
+	translate: calc(50% - 13rem) 0;
+}
+#north-carpark-issue-march-and-multi-sectoral-discussion h2 {
+	right: -5%;
+	text-align: right;
+}
+
+#orphie-and-the-book-of-heroes {
+	inset: 445.5rem 50% auto auto;
+	translate: calc(50% + 13rem) 0;
+}
+#orphie-and-the-book-of-heroes h2 {
+	inset: -70% auto auto -5%;
+}
+
+/* february */
+#valentines-day-in-katipunan {
+	inset: 490rem 50% auto auto;
+	translate: 50% 0;
+}
+#valentines-day-in-katipunan h2 {
+	inset: -40% -100% auto auto;
+	text-align: right;
+}
+
+#edsa-38-mini-concert {
+	inset: 515rem 50% auto auto;
+	translate: calc(50% - 13rem) 0;
+}
+#edsa-38-mini-concert h2 {
+	inset: -40% auto auto -80%;
+}
+
+#love-box-2024 {
+	inset: 520rem 50% auto auto;
+	translate: calc(50% + 15rem) 0;
 }
