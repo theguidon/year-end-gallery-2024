@@ -26,7 +26,7 @@ header > p:nth-of-type(2) {
 
 .photo-container {
   width: 100vw;
-	height: 700rem;
+	height: 750rem;
 	position: relative;
 	margin-top: 5rem;
 }
@@ -106,13 +106,13 @@ header > p:nth-of-type(2) {
 
 /* july */
 #peoples-sona {
-	inset: 65rem 50% auto auto;
+	inset: 70rem 50% auto auto;
 	translate: calc(50% - 5rem) 0;
 }
 
 /* august */
 #orsem-muli {
-	inset: 115rem 50% auto auto;
+	inset: 130rem 50% auto auto;
 	translate: calc(50% + 15rem) 0;
 }
 #orsem-muli h2 {
@@ -122,18 +122,21 @@ header > p:nth-of-type(2) {
 }
 
 #o-night {
-	inset: 120rem 50% auto auto;
+	inset: 135rem 50% auto auto;
 	translate: calc(50% - 15rem) 0;
 }
 
 /* september */
 #coa-recweek {
-	inset: 170rem 50% auto auto;
+	inset: 185rem 50% auto auto;
 	translate: calc(50% - 20rem) 0;
+}
+#coa-recweek h2 {
+	inset: -10% auto auto 102%;
 }
 
 #cheer-rally-2023 {
-	inset: 175rem 50% auto auto;
+	inset: 190rem 50% auto auto;
 	translate: calc(50% + 22rem) 0;
 }
 #cheer-rally-2023 h2 {
@@ -142,23 +145,91 @@ header > p:nth-of-type(2) {
 }
 
 #martial-law-commemoration {
-	inset: 190rem 50% auto auto;
-	translate: calc(50% - 20rem) 0;
+	inset: 205rem 50% auto auto;
+	translate: calc(50% - 18rem) 0;
 }
 #martial-law-commemoration h2 {
 	inset: auto auto -15% 105%;
 }
 
 #ta-ardor {
-	inset: 209rem 50% auto auto;
-	translate: calc(50% - 20rem) 0;
+	inset: 224rem 50% auto auto;
+	translate: calc(50% - 14rem) 0;
 }
 
 #shippey-lecture {
-	inset: 210rem 50% auto auto;
+	inset: 227rem 50% auto auto;
 	translate: calc(50% + 18rem) 0;
 }
 #shippey-lecture h2 {
 	text-align: right;
 	right: 0;
+}
+
+/* october */
+#talab {
+	inset: 249rem 50% auto auto;
+	translate: calc(50% - 18rem) 0;
+}
+
+#one-big-pride {
+	inset: 250rem 50% auto auto;
+	translate: calc(50% + 18rem) 0;
+}
+
+#sarita {
+	inset: 268rem 50% auto auto;
+	translate: calc(50% - 5rem) 0;
+}
+#sarita h2 {
+	inset: auto auto -10% 103%;
+}
+
+#halloween-in-ateneo {
+	inset: 289rem 50% auto auto;
+	translate: calc(50% - 10rem) 0;
+}
+#halloween-in-ateneo h2 {
+	inset: -40% 0 auto auto;
+}
+
+#bsk-elections {
+	inset: 285rem 50% auto auto;
+	translate: calc(50% + 18rem) 0;
+}
+
+/* november */
+#lsogc-dog-parade {
+	inset: 310rem 50% auto auto;
+	translate: calc(50% - 22rem) 0;
+}
+
+#one-big-fight-with-palestine {
+	inset: 313rem 50% auto auto;
+	translate: calc(50% + 8rem) 0;
+}
+#one-big-fight-with-palestine h2 {
+	inset: -40% -90% auto auto;
+	text-align: right;
+}
+
+#piston-transport-strike {
+	inset: 330rem 50% auto auto;
+	translate: calc(50% + 15rem) 0;
+}
+
+#mvp-christmas-tree {
+	inset: 340rem 50% auto auto;
+	translate: calc(50% - 14rem) 0;
+}
+#mvp-christmas-tree h2 {
+	inset: -35% auto auto -40%;
+}
+
+#multisectoral-mobilization-in-solidarity-with-palestine {
+	inset: 360rem 50% auto auto;
+	translate: calc(50% - 12rem) 0;
+}
+#multisectoral-mobilization-in-solidarity-with-palestine h2 {
+	inset: -15% -180% auto auto;
 }
