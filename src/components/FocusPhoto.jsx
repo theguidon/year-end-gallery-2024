@@ -49,10 +49,9 @@ const FocusPhoto = ({ setIsLandingVisible }) => {
         {photoData.map((event, i) => {
           return (
             <button
-              id={event.event}
+              id={event.slug}
               key={event.title}
               className="photo-preview"
-              style={{ translate: `0 ${200 * i}%` }}
               onClick={() => {
                 setModalEvent(event);
                 setIsModal(true);

@@ -26,9 +26,10 @@ header > p:nth-of-type(2) {
 
 .photo-container {
   width: 100vw;
-	height: 1320rem;
+	height: 330rem;
 	position: relative;
 	margin-top: 5rem;
+	overflow: hidden;
 }
 
 .photo-container .landing-menu {
@@ -72,6 +73,7 @@ header > p:nth-of-type(2) {
 .revoir {
 	text-align: center;
 	margin-bottom: 5rem;
+	overflow: hidden;
 }
 .marquee {
 	rotate: -3deg;

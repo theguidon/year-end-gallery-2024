@@ -2,37 +2,60 @@ import "../styles/Ruler.css";
 
 import Inch from "../assets/images/RulerInch.svg";
 
-import { useState, useEffect } from "react";
+import { useState, useRef } from "react";
+
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from "@gsap/react";
+gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(useGSAP);
+
+import photoData from "../utility/data.js";
 
 const Ruler = ({ galleryHeight }) => {
-  const [scrollPosition, setScrollPosition] = useState(0);
-  const handleScroll = () => setScrollPosition(window.pageYOffset);
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    console.log(scrollPosition);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, [scrollPosition]);
+  const tl = useRef();
+  const [focusedMonth, setFocusedMonth] = useState(0);
+
+  // scroll animation
+  useGSAP(() => {
+    tl.current = gsap.timeline();
+
+    tl.current.to(".date-pointer", {
+      scrollTrigger: {
+        scrub: 1,
+        onUpdate: (self) => {
+          let month = Math.floor(self.progress * 12);
+          if (month === 12) month = 11;
+          setFocusedMonth(month);
+        },
+      },
+      ease: "none",
+      y: 580,
+    });
+  });
 
   return (
     <div className="ruler">
       {[...Array(12)].map((e, i) => {
         return (
-          <div key={i} className="month">
+          <div
+            key={i}
+            className="month"
+            style={{ color: focusedMonth === i ? "#E4BB4E" : "#B1ACAC" }}
+          >
             <img src={Inch} />
           </div>
         );
       })}
       <svg
         className="date-pointer"
-		style={{translate: `-650% ${-50 + (scrollPosition / galleryHeight * 4700)}%`}}
-        width="10"
-        height="12"
-        viewBox="0 0 10 12"
+        width="17"
+        height="20"
+        viewBox="0 0 17 20"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <rect width="10" height="12" fill="black" />
-        <path d="M10 6L5.91278e-05 12L5.91278e-05 0L10 6Z" fill="#9b9898" />
+        <path d="M17 10L0.5 19.5263L0.5 0.473721L17 10Z" fill="#E4BB4E" />
       </svg>
     </div>
   );

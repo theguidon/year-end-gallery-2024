@@ -156,6 +156,7 @@ import bonfire3 from "/images/bonfire/3.jpg";
 const photoData = [
   {
     event: "Blue Rose 2023",
+    slug: "blue-rose-2023",
     title: "Blossoming Again",
     description:
       "On June 26, 2023, Blue Rose—the annual culminating event for seniors and super seniors—made its onsite return to Bellarmine Field after a three-year break to celebrate the Class of 2023’s journey.",
@@ -182,6 +183,7 @@ const photoData = [
   },
   {
     event: "QC Pride March",
+    slug: "qc-pride-march",
     title: "Pride in Progress",
     description:
       "On June 24, 2023, over 110,000 people gathered at Quezon City Memorial Circle for the LoveLaban Pride Festival, making it the largest Pride event in Southeast Asia.<br/><br/>Members and allies of the LGBTQ+ community marched through the streets of Quezon City, advocating for equal rights and urging for the passage of the SOGIE Equality Bill. The legislative measure has been pending for nearly 23 years, making it one of the slowest-moving bills in the Philippines.",
@@ -208,6 +210,7 @@ const photoData = [
   },
   {
     event: "People's SONA",
+    slug: "peoples-sona",
     title: "Voices of the People",
     description:
       "On July 24, 2023, various multi-sectoral groups marched along Commonwealth Avenue in Quezon City to deliver the People’s State of the Nation Address (SONA) prior to President Ferdinand Marcos Jr.’s second SONA. The protesters called on the Marcos administration to increase minimum wage, improve labor conditions, and protect human rights.",
@@ -234,6 +237,7 @@ const photoData = [
   },
   {
     event: "OrSem Muli",
+    slug: "orsem-muli",
     title: "Welcome Home, Batch 2023",
     description:
       "The Ateneo community welcomed Batch 2023 at this year’s Orientation Seminar (OrSem), themed Muli, held last August 3–4 and 7-8, 2023. Beginning with two asynchronous days, the event continued onsite to introduce the freshies and transferees to the Ateneo campus.",
@@ -278,6 +282,7 @@ const photoData = [
   },
   {
     event: "O-Night",
+    slug: "o-night",
     title: "Dance the Night Away",
     description:
       "To mark the conclusion of OrSem Muli last August 8, 2023, this year’s OrSem culminating concert showcased freshmen performers and local artists, igniting a spirited evening of music and dance that resonated throughout the Ateneo community.",
@@ -328,6 +333,7 @@ const photoData = [
   },
   {
     event: "COA RecWeek",
+    slug: "coa-recweek",
     title: "Exploring Passions, Forging Bonds",
     description:
       "From August 29 to September 8, 2023, the Council of Organizations of the Ateneo - Manila and League of Independent Organizations jointly hosted the awaited Ateneo de Manila Student Organizations Recruitment Week. The two-week fair, open to all college students of the University, presented a remarkable opportunity for students to explore their interests and make connections with like-minded individuals.",
@@ -354,6 +360,7 @@ const photoData = [
   },
   {
     event: "Cheer Rally 2023",
+    slug: "cheer-rally-2023",
     title: "Blue Eagles Take Flight",
     description:
       "The Ateneo community kicked off UAAP Season 86 with its annual Cheer Rally on September 27, 2023. This year’s event was moved to the Loyola Schools Covered Courts due to ongoing renovations at the Blue Eagle Gym, its usual venue.",
@@ -386,6 +393,7 @@ const photoData = [
   },
   {
     event: "Martial Law Commemoration",
+    slug: "martial-law-commemoration",
     title: "Ateneo Remembers",
     description:
       "Numerous art installations had been placed around the Loyola Heights campus to mark the 51st anniversary of the 1972 Martial Law declaration. Located at Matteo Ricci Hall Steps, EDSA Walk, SEC Walk, Zen Garden, and Rizal Library First Pacific Hall, these installations invited the Ateneo community to reflect on the injustices that took place during Martial Law.",
@@ -412,6 +420,7 @@ const photoData = [
   },
   {
     event: "TA Ardor",
+    slug: "ta-ardor",
     title: "Love and Fury",
     description:
       "Last September 9, Tanghalang Ateneo began their 45th theater season with “Ardór,” a play centered on Filipino love and revolution. Set in a dystopian Manila, “Ardór” delved into the anger within the oppressed who have endured prolonged suffering.",
@@ -438,6 +447,7 @@ const photoData = [
   },
   {
     event: "Shippey Lecture",
+    slug: "shippey-lecture",
     title: "Neidorf on Beowulf",
     description:
       "The Ateneo de Manila University School of Humanities organized lectures last September 27 and 29, 2023 in celebration of the works of J. R. R. Tolkien. Included in this celebration is a lecture titled “Sixty Years of J. R. R. Tolkien.” It featured Tom Shippey, the leading Tolkien scholar, and Leonard Neidorf, an English professor at Nanjing University.",
@@ -458,6 +468,7 @@ const photoData = [
   },
   {
     event: "TALAB",
+    slug: "talab",
     title: "From Dialogue to Deeds",
     description:
       "From October 17 to 27, the Ateneo community engaged in Talakayang Alay sa Bayan 2023, themed “Renewing Our Commitment: Persons for Others @ 50.” This annual event featured talks, trips, workshops, and various activities, providing students with opportunities to reflect on national issues and the Atenean mission to be persons for others.",
@@ -502,6 +513,7 @@ const photoData = [
   },
   {
     event: "One Big Pride",
+    slug: "one-big-pride",
     title: "Empowered and United",
     description:
       "Last October 13, 2023, One Big Pride: Power in Pride 2023 was organized by The Sanggunian: Commission on Gender Equality, in partnership with the University Gender Hub and the University Gender and Development Office. The event began with a march at Areté and concluded with a community night at Bellarmine Field.",
@@ -534,6 +546,7 @@ const photoData = [
   },
   {
     event: "Sarita",
+    slug: "sarita",
     title: "Embodied Narratives",
     description:
       "In celebration of its 41st season production last October 18, 2023, Ateneo ENTABLADO’s Saríta: Trilohiya ng Mga Sinaring Katawan explored three narratives focusing on the challenges of the body and the experiences of being a man, a woman, and a queer in society.",
@@ -560,6 +573,7 @@ const photoData = [
   },
   {
     event: "Halloween in Ateneo",
+    slug: "halloween-in-ateneo",
     title: "Costumes and Thrills",
     description:
       "Students and teachers at Ateneo donned costumes for this year’s Halloween celebration on campus. Disguised as video game characters and pop culture icons, they participated in various Halloween-themed events at Areté, MVP, SEC Walk, and Rizal Library.",
@@ -592,6 +606,7 @@ const photoData = [
   },
   {
     event: "BSK Elections",
+    slug: "bsk-elections",
     title: "Reviving barangay politics ",
     description:
       "For the first time in five years, the Barangay and Sangguniang Kabataan elections were held on October 30, 2023 across various provinces and municipalities nationwide. Polls were open from 8:00 AM to 3:00 PM, with ballots manually counted by volunteers.<br/><br/> The photos in this set were taken in Bulacan, where residents also voted on the issue of designating San Jose Del Monte (SJDM) as a Highly Urbanized City (HUC). The plebiscite results rejected classifying SJDM as a HUC.",
@@ -617,7 +632,8 @@ const photoData = [
     ],
   },
   {
-    event: "LSOGC Dog Parade ",
+    event: "LSOGC Dog Parade",
+    slug: "lsogc-dog-parade",
     title: "Ateneans’ Best Friends",
     description:
       "At this year’s annual Dog Parade, members of the Loyola Schools of Guidance and Counseling celebrated their in-house “dog-tors” with a tour around campus, allowing students to meet and interact with the Ateneo’s fluffy friends.",
@@ -638,6 +654,7 @@ const photoData = [
   },
   {
     event: "One Big Fight with Palestine",
+    slug: "one-big-fight-with-palestine",
     title: "Fighting for Freedom",
     description:
       "On November 10, 2023, One Big Fight for Human Rights and Democracies held a mobilization titled “Ateneans, One Big Fight with Palestinians” at Gate 2.5. During the event, participants called for a ceasefire and demanded accountability from the United States for its continuous financial and military aid to Israel.<br/><br/>All in hopes of a free Palestine.",
@@ -664,6 +681,7 @@ const photoData = [
   },
   {
     event: "PISTON Transport Strike",
+    slug: "piston-transport-strike",
     title: "Pagpatuloy ng Laban",
     description:
       "Transport group PISTON gathered at the Mendiola Peace Arch on November 11, 2023 to mark the culmination of their three-day transport strike opposing the Public Utility Vehicle Modernization Program. This mobilization was one of the many strikes that occurred throughout the year.",
@@ -696,6 +714,7 @@ const photoData = [
   },
   {
     event: "MVP Christmas Tree",
+    slug: "mvp-christmas-tree",
     title: "Leading the Light",
     description:
       "On November 17, 2023, student leaders gathered at the MVP Lobby to place symbolic ornaments for their respective organizations during the ceremonial Christmas Tree Lighting.",
@@ -722,6 +741,7 @@ const photoData = [
   },
   {
     event: "Multisectoral mobilization in solidarity with Palestine",
+    slug: "multisectoral-mobilization-in-solidarity-with-palestine",
     title: "Stand with Palestine",
     description:
       "Despite being over 9,000 kilometers away, Filipinos have shown solidarity with those in Palestine, holding several rallies throughout the past months to call for a permanent ceasefire.<br/><br/>At the time of the coverage, Palestinians were seeking shelter in Rafah, located in the South of Gaza Strip, hoping to evacuate to Egypt for Safety. However, circumstances escalated on May 26 when an Israeli air-strike attacked the neighborhood of Tal Al-Sultan in Rafah.",
@@ -748,6 +768,7 @@ const photoData = [
   },
   {
     event: "North Car Park Project Mobilization",
+    slug: "north-car-park-project-mobilization",
     title: "Standing behind trees  ",
     description:
       "On December 27, concerned members of the Ateneo community gathered to call for the reconsideration of the North Carpark renovation plans. To signify the mobilization, blue ribbons were tied on the trees in the carpark.",
@@ -792,6 +813,7 @@ const photoData = [
   },
   {
     event: "North Carpark Issue March and Multi-Sectoral Discussion",
+    slug: "north-carpark-issue-march-and-multi-sectoral-discussion",
     title: "Tying ends",
     description:
       "Members of the Ateneo community held a multi-sectoral discussion regarding the North Carpark renovation last January 15, 2024. Attendees tied blue ribbons around nearby trees and posts and participated in discussions at Leong Hall steps.",
@@ -824,6 +846,7 @@ const photoData = [
   },
   {
     event: "Orphie and the Book of Heroes",
+    slug: "orphie-and-the-book-of-heroes",
     title: "A hero’s tale",
     description:
       "Ateneo Blue Repertory marked its first onsite newbie production since 2019 and the Asian premiere of Michael Kooman and Christopher Dimond’s musical titled <i>Orphie and the Book of Heroes</i>.",
@@ -844,6 +867,7 @@ const photoData = [
   },
   {
     event: "Valentine’s Day in Katipunan",
+    slug: "valentines-day-in-katipunan",
     title: "Valentine’s Day in Katipunan",
     description:
       "Celebrations of love overflowed within Ateneo grounds and along Katipunan Avenue for Valentine’s Day. Various student organizations installed booths selling flowers, while vendors along Katipunan sold heart-shaped balloons.",
@@ -870,6 +894,7 @@ const photoData = [
   },
   {
     event: "EDSA @ 38 Mini Concert",
+    slug: "edsa-38-mini-concert",
     title: "38 years after ",
     description:
       "The Ateneo Martial Law Museum and Library held a mini concert last February 23, 2024 to commemorate the 38th anniversary of the People Power Revolution through various art forms. Various artists—including Nica Del Rosario, Himig Heswita, Laura Cabochan, and Ateneo ENTABLADO—performed to celebrate with the Ateneo community. ",
@@ -896,6 +921,7 @@ const photoData = [
   },
   {
     event: "Love BOx 2024",
+    slug: "love-box-2024",
     title: "Love in water ",
     description:
       "A number of artists, such as Franz, mrld, Maki, geiko and Kenaniah, performed at Love BOx 2024: Aurora Amore on February 23, 2024 to help raise funds for cetacean research and conservation with Balyena.org.",
@@ -934,6 +960,7 @@ const photoData = [
   },
   {
     event: "Under the Stars",
+    slug: "under-the-stars",
     title: "Dancing Under the Stars",
     description:
       "The Loyola Film Circle brought love into March through Under the Stars: Keeping the Love Alive. The event featured student-made short films and various artists, such as Over October and MoonDream City. ",
@@ -972,6 +999,7 @@ const photoData = [
   },
   {
     event: "Ateneo Fluid",
+    slug: "ateneo-fluid",
     title: "The life of an artist",
     description:
       "On March 23, 2024, graduating seniors from BFA Theater Arts staged Floy Quintos’ <i>Fluid</i> for their undergraduate acting thesis production. The play narrated the struggles of artists amid the Filipino Gen-Z society.",
@@ -1004,6 +1032,7 @@ const photoData = [
   },
   {
     event: "March of Women",
+    slug: "march-of-women",
     title: "Women at the center",
     description:
       "Ateneo celebrated Women’s Month through a series of events and initiatives. Following the theme “Investing in Inclusivity: The Power of Women Visionaries, Changemakers, and Disruptors,” the University held panel discussions, workshops, art exhibitions, performances, and community outreach and advocacy campaigns to celebrate women’s achievements and promote gender equality.<br/><br/>The celebration featured exemplary Filipino women, such as former Vice President Leni Robredo, Hon. Trina Firmalo-Fabic, Hon. Joy Belmonte, and Hon. Agatha Cruz.",
@@ -1036,6 +1065,7 @@ const photoData = [
   },
   {
     event: "JSEC Challenge",
+    slug: "jsec-challenge",
     title: "Melting pot of flavors ",
     description:
       "Hoping to secure a stall at the JGSOM Student Enterprise Center (JSEC), 26 different food stalls joined in this year’s JSEC Challenge held from April 17 to 21, 2024. All throughout the week of the competition, the Ateneo community tried out the various flavors offered by the stalls.",
@@ -1068,6 +1098,7 @@ const photoData = [
   },
   {
     event: "FA Lagnat Laki",
+    slug: "fa-lagnat-laki",
     title: "Ills of the Youth ",
     description:
       "From April 3 to 27, the Fine Arts Department staged “Lagnat-Laki: Ang Trilohiya Para sa Bayang Walang Pinagkatandaan,” featuring three one-act plays that highlighted the different injustices faced by children in modern-day society.",
@@ -1100,6 +1131,7 @@ const photoData = [
   },
   {
     event: "Labor Day Protest",
+    slug: "labor-day-protest",
     title: "Sahod itaas, presyo ibaba",
     description:
       "Various groups and organizations, including PISTON and Manibela, marched along Mendiola Street as part of the annual Labor Day celebration. They called for an increase in wages and a decrease in the prices of goods and services. Among other transport groups, PISTON and Manibela simultaneously held their transportation strikes against the PUV Modernization Program.",
@@ -1126,6 +1158,7 @@ const photoData = [
   },
   {
     event: "Ateneo Bonfire",
+    slug: "ateneo-bonfire",
     title: "Win or Lose ",
     description:
       "Last May 17, 2024, the Ateneo faithful braved the rain to attend the Blue Eagle Bonfire, celebrating the achievements of Atenean athletes and teams throughout the school year.",
