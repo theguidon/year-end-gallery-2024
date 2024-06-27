@@ -26,10 +26,9 @@ header > p:nth-of-type(2) {
 
 .photo-container {
   width: 100vw;
-	height: 330rem;
+	height: 700rem;
 	position: relative;
 	margin-top: 5rem;
-	overflow: hidden;
 }
 
 .photo-container .landing-menu {
@@ -41,33 +40,32 @@ header > p:nth-of-type(2) {
 
 .photo-preview {
 	position: absolute;
-	inset: 0 50% auto auto;
-	transform: translateX(50%);
-	text-align: center;
-	width: 90%;
-	height: 20rem;
-	background: none;
+	bottom: 0;
+	background: black;
 	cursor: pointer;
 	border: none;
 }
 .photo-preview img {
-	max-height: 100%;
+	max-height: 20rem;
+	max-width: 20rem;
 	filter: grayscale(100%);
 	transition: ease-in-out 200ms;
 	border-image: url("../assets/images/PhotoFrame.png") 1 / 1px / 1rem;
 }
-.photo-preview img:hover {
+.photo-preview:hover img {
 	filter: none;
 }
 .photo-preview h2 {
-	margin-top: 1.5rem;
-	text-align: center;
+	width: max-content;
+	max-width: 35rem;
+	position: absolute;
 	font-size: 4.5rem;
 	font-weight: 500;
-	background: linear-gradient(234deg, #FFF 11.87%, rgba(255, 255, 255, 0.22) 68.17%);
+	background: linear-gradient(170deg, #FFF 11.87%, rgba(255, 255, 255, 0.30) 68.17%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
+	text-align: left;
 }
 
 .revoir {
@@ -90,4 +88,77 @@ header > p:nth-of-type(2) {
 	text-decoration: underline;
 	color: #e4bb4e;
 	font-size: 1.5rem;
+}
+
+/* june */
+#blue-rose-2023 {
+	inset: 0rem 50% auto auto;
+	translate: calc(50% - 20rem) 0;
+}
+
+#qc-pride-march {
+	inset: 25rem 50% auto auto;
+	translate: calc(50% + 20rem) 0;
+}
+#qc-pride-march h2 {
+	right: 0;
+}
+
+/* july */
+#peoples-sona {
+	inset: 65rem 50% auto auto;
+	translate: calc(50% - 5rem) 0;
+}
+
+/* august */
+#orsem-muli {
+	inset: 115rem 50% auto auto;
+	translate: calc(50% + 15rem) 0;
+}
+#orsem-muli h2 {
+	top: auto;
+	bottom: 105%;
+	text-align: left;
+}
+
+#o-night {
+	inset: 120rem 50% auto auto;
+	translate: calc(50% - 15rem) 0;
+}
+
+/* september */
+#coa-recweek {
+	inset: 170rem 50% auto auto;
+	translate: calc(50% - 20rem) 0;
+}
+
+#cheer-rally-2023 {
+	inset: 175rem 50% auto auto;
+	translate: calc(50% + 22rem) 0;
+}
+#cheer-rally-2023 h2 {
+	text-align: right;
+	right: 0;
+}
+
+#martial-law-commemoration {
+	inset: 190rem 50% auto auto;
+	translate: calc(50% - 20rem) 0;
+}
+#martial-law-commemoration h2 {
+	inset: auto auto -15% 105%;
+}
+
+#ta-ardor {
+	inset: 209rem 50% auto auto;
+	translate: calc(50% - 20rem) 0;
+}
+
+#shippey-lecture {
+	inset: 210rem 50% auto auto;
+	translate: calc(50% + 18rem) 0;
+}
+#shippey-lecture h2 {
+	text-align: right;
+	right: 0;
 }

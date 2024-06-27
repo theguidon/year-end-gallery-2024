@@ -22,6 +22,10 @@ const Ruler = ({ galleryHeight }) => {
 
     tl.current.to(".date-pointer", {
       scrollTrigger: {
+				trigger: ".photo-container",
+				start: "top top",
+				endTrigger: ".credits",
+				end: "top bottom",
         scrub: 1,
         onUpdate: (self) => {
           let month = Math.floor(self.progress * 12);
