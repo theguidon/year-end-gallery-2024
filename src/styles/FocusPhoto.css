@@ -233,3 +233,12 @@ header > p:nth-of-type(2) {
 #multisectoral-mobilization-in-solidarity-with-palestine h2 {
 	inset: -15% -180% auto auto;
 }
+
+/* december */
+#north-car-park-project-mobilization {
+	inset: 400rem 50% auto auto;
+	translate: calc(50% - 12rem) 0;
+}
+#north-car-park-project-mobilization h2 {
+	inset: -5% -180% auto auto;
+}
