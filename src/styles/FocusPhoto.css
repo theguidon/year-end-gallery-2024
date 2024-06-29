@@ -207,7 +207,7 @@ header > p:nth-of-type(2) {
 
 #one-big-fight-with-palestine {
 	inset: 313rem 50% auto auto;
-	translate: calc(50% + 8rem) 0;
+	translate: calc(50% + 5rem) 0;
 }
 #one-big-fight-with-palestine h2 {
 	inset: -40% -90% auto auto;
@@ -216,12 +216,12 @@ header > p:nth-of-type(2) {
 
 #piston-transport-strike {
 	inset: 330rem 50% auto auto;
-	translate: calc(50% + 15rem) 0;
+	translate: calc(50% + 11rem) 0;
 }
 
 #mvp-christmas-tree {
 	inset: 340rem 50% auto auto;
-	translate: calc(50% - 14rem) 0;
+	translate: calc(50% - 16rem) 0;
 }
 #mvp-christmas-tree h2 {
 	inset: -35% auto auto -40%;
@@ -275,7 +275,7 @@ header > p:nth-of-type(2) {
 
 #edsa-38-mini-concert {
 	inset: 515rem 50% auto auto;
-	translate: calc(50% - 13rem) 0;
+	translate: calc(50% - 10rem) 0;
 }
 #edsa-38-mini-concert h2 {
 	inset: -40% auto auto -80%;
@@ -330,4 +330,422 @@ header > p:nth-of-type(2) {
 #ateneo-bonfire {
 	inset: 700rem 50% auto auto;
 	translate: calc(50% - 12rem) 0;
+}
+
+@media (max-width: 1180px) {
+	.photo-preview img {
+		max-width: 15rem;
+		max-height: 15rem;
+	}
+	.photo-preview h2 {
+		font-size: 2.5rem;
+		max-width: 20rem;
+	}
+
+	.photo-preview {
+		inset: auto auto 0 auto;
+	}
+
+	#blue-rose-2023 {
+		translate: calc(50% - 8rem) 0;
+	}
+	
+	#qc-pride-march {
+		translate: calc(50% + 8rem) 0;
+	}
+	
+	/* july */
+	#peoples-sona {
+		inset: 75rem 50% auto auto;
+	}
+	
+	/* august */
+	#orsem-muli {
+		translate: calc(50% + 9rem) 0;
+	}
+	
+	#o-night {
+		inset: 140rem 50% auto auto;
+		translate: calc(50% - 9rem) 0;
+	}
+	
+	/* september */
+	#coa-recweek {
+		translate: calc(50% - 9rem) 0;
+	}
+	
+	#cheer-rally-2023 {
+		translate: calc(50% + 10rem) 0;
+	}
+	
+	#martial-law-commemoration {
+		inset: 203rem 50% auto auto;
+		translate: calc(50% - 11rem) 0;
+	}
+	#martial-law-commemoration h2 {
+		inset: auto auto -30% auto;
+	}
+	
+	#ta-ardor {
+		translate: calc(50% - 8rem) 0;
+	}
+	
+	#shippey-lecture {
+		translate: calc(50% + 10rem) 0;
+	}
+	
+	/* october */
+	#talab {
+		translate: calc(50% - 10rem) 0;
+	}
+	
+	#one-big-pride {
+		translate: calc(50% + 10rem) 0;
+	}
+	
+	#halloween-in-ateneo {
+		translate: calc(50% - 8rem) 0;
+	}
+	
+	#bsk-elections {
+		translate: calc(50% + 10rem) 0;
+	}
+	
+	/* november */
+	#lsogc-dog-parade {
+		translate: calc(50% - 11rem) 0;
+	}
+	#lsogc-dog-parade h2 {
+		inset: -30% -50% auto auto;
+	}
+	
+	#one-big-fight-with-palestine {
+		translate: calc(50% + 7rem) 0;
+	}
+	#one-big-fight-with-palestine h2 {
+		inset: auto 0 -30% auto;
+		text-align: right;
+	}
+	
+	#piston-transport-strike {
+		translate: calc(50% + 5rem) 0;
+	}
+	
+	#mvp-christmas-tree {
+		translate: calc(50% - 13rem) 0;
+	}
+	
+	#multisectoral-mobilization-in-solidarity-with-palestine {
+		inset: 355rem 50% auto auto;
+	}
+	#multisectoral-mobilization-in-solidarity-with-palestine h2 {
+		inset: 0% -180% auto auto;
+		width: 25rem;
+	}
+	
+	/* december */
+	#north-car-park-project-mobilization {
+		inset: 390rem 50% auto auto;
+	}
+	#north-car-park-project-mobilization h2 {
+		inset: 0 auto auto -150%;
+		text-align: right;
+		width: 20rem;
+	}
+	
+	/* january */
+	#north-carpark-issue-march-and-multi-sectoral-discussion {
+		translate: calc(50% - 10rem) 0;
+	}
+	
+	#orphie-and-the-book-of-heroes {
+		inset: 442rem 50% auto auto;
+		translate: calc(50% + 10rem) 0;
+	}
+	
+	/* february */
+	#valentines-day-in-katipunan h2 {
+		inset: -30% -75% auto auto;
+		text-align: right;
+	}
+	
+	#edsa-38-mini-concert {
+	inset: 507rem 50% auto auto;
+		translate: calc(50% - 3rem) 0;
+	}
+	#edsa-38-mini-concert h2 {
+		inset: -30% auto auto -60%;
+	}
+	
+	#love-box-2024 {
+		translate: calc(50% + 10rem) 0;
+	}
+	
+	/* march */
+	#under-the-stars {
+		translate: calc(50% + 8rem) 0;
+	}
+	
+	#ateneo-fluid {
+		translate: calc(50% - 10rem) 0;
+	}
+	
+	#march-of-women {
+		translate: calc(50% + 7rem) 0;
+	}
+	
+	/* april */
+	#fa-lagnat-laki {
+		translate: calc(50% + 8rem) 0;
+	}
+	
+	/* may */
+	#labor-day-protest {
+		translate: calc(50% + 6rem) 0;
+	}
+	
+	#ateneo-bonfire {
+		translate: calc(50% - 7rem) 0;
+	}
+}
+
+@media (max-width: 640px) {
+	.photo-container {
+		height: 1000rem;
+	}
+
+	/* june */
+	#blue-rose-2023 {
+		inset: 10rem 50% auto auto;
+		translate: calc(50% - 3rem) 0;
+	}
+	
+	#qc-pride-march {
+		inset: 50rem 50% auto auto;
+		translate: calc(50% + 2rem) 0;
+	}
+	
+	/* july */
+	#peoples-sona {
+		inset: 110rem 50% auto auto;
+		translate: calc(50% - 3rem) 0;
+	}
+	
+	/* august */
+	#orsem-muli {
+		inset: 180rem 50% auto auto;
+		translate: calc(50% + 3rem) 0;
+	}
+	
+	#o-night {
+		inset: 203rem 50% auto auto;
+		translate: calc(50% - 2rem) 0;
+	}
+	
+	/* september */
+	#coa-recweek {
+		inset: 252rem 50% auto auto;
+		translate: calc(50% - 2rem) 0;
+	}
+	#coa-recweek h2 {
+		inset: -30% auto auto auto;
+	}
+	
+	#cheer-rally-2023 {
+		inset: 265rem 50% auto auto;
+		translate: calc(50% + 2rem) 0;
+	}
+	
+	#martial-law-commemoration {
+		inset: 280rem 50% auto auto;
+		translate: calc(50% - 1rem) 0;
+	}
+	#martial-law-commemoration h2 {
+		inset: auto auto -50% auto;
+	}
+	
+	#ta-ardor {
+		inset: 297rem 50% auto auto;
+		translate: calc(50% - 3rem) 0;
+	}
+	
+	#shippey-lecture {
+		inset: 311rem 50% auto auto;
+		translate: calc(50% + 2rem) 0;
+	}
+	
+	/* october */
+	#talab {
+		inset: 330rem 50% auto auto;
+		translate: calc(50% - 2rem) 0;
+	}
+	
+	#one-big-pride {
+		inset: 344rem 50% auto auto;
+		translate: calc(50% + 2rem) 0;
+	}
+	
+	#sarita {
+		inset: 360rem 50% auto auto;
+		translate: calc(50% - 0rem) 0;
+	}
+	#sarita h2 {
+		inset: auto auto -30% auto;
+	}
+	
+	#halloween-in-ateneo {
+		inset: 374rem 50% auto auto;
+		translate: calc(50% - 1rem) 0;
+	}
+	#halloween-in-ateneo h2 {
+		inset: auto auto -55% auto;
+	}
+	
+	#bsk-elections {
+		inset: 391rem 50% auto auto;
+		translate: calc(50% + 2rem) 0;
+	}
+	
+	/* november */
+	#lsogc-dog-parade {
+		inset: 413rem 50% auto auto;
+		translate: calc(50% - 2rem) 0;
+	}
+	#lsogc-dog-parade h2 {
+		inset: auto auto -30% auto;
+		text-align: left;
+	}
+	
+	#one-big-fight-with-palestine {
+		inset: 429rem 50% auto auto;
+		translate: calc(50% + 0rem) 0;
+	}
+	#one-big-fight-with-palestine h2 {
+		inset: auto 0 -55% auto;
+		text-align: right;
+	}
+	
+	#piston-transport-strike {
+		inset: 446rem 50% auto auto;
+		translate: calc(50% - 1.5rem) 0;
+	}
+	#piston-transport-strike h2 {
+		inset: auto auto -50% -20%;
+	}
+	
+	#mvp-christmas-tree {
+		inset: 460rem 50% auto auto;
+		translate: calc(50% + 3rem) 0;
+	}
+	#mvp-christmas-tree h2 {
+		inset: auto 0 -30% auto;
+		text-align: right;
+		max-width: none;
+	}
+	
+	#multisectoral-mobilization-in-solidarity-with-palestine {
+		inset: 475rem 50% auto auto;
+		translate: calc(50% - 1rem) 0;
+	}
+	#multisectoral-mobilization-in-solidarity-with-palestine h2 {
+		inset: auto auto -120% auto;
+	}
+	
+	/* december */
+	#north-car-park-project-mobilization {
+		inset: 530rem 50% auto auto;
+		translate: calc(50% + 1rem) 0;
+	}
+	#north-car-park-project-mobilization h2 {
+		inset: auto 0 -90% auto;
+		text-align: right;
+	}
+	
+	/* january */
+	#north-carpark-issue-march-and-multi-sectoral-discussion {
+		inset: 585rem 50% auto auto;
+		translate: calc(50% - 1rem) 0;
+	}
+	#north-carpark-issue-march-and-multi-sectoral-discussion h2 {
+		inset: auto auto -120% auto;
+		text-align: left;
+	}
+	
+	#orphie-and-the-book-of-heroes {
+		inset: 620rem 50% auto auto;
+		translate: calc(50% + 1rem) 0;
+	}
+	#orphie-and-the-book-of-heroes h2 {
+		inset: auto 0 -60% auto;
+		text-align: right;
+	}
+	
+	/* february */
+	#valentines-day-in-katipunan {
+		inset: 665rem 50% auto auto;
+		translate: 50% 0;
+	}
+	#valentines-day-in-katipunan h2 {
+		inset: auto auto -60% -10%;
+		text-align: left;
+	}
+	
+	#edsa-38-mini-concert {
+		inset: 695rem 50% auto auto;
+		translate: calc(50% - 1rem) 0;
+	}
+	#edsa-38-mini-concert h2 {
+		inset: -60% auto auto auto;
+	}
+	
+	#love-box-2024 {
+		inset: 720rem 50% auto auto;
+		translate: calc(50% + 1rem) 0;
+	}
+	
+	/* march */
+	#under-the-stars {
+		inset: 750rem 50% auto auto;
+		translate: calc(50% + 2rem) 0;
+	}
+	#under-the-stars h2 {
+		right: 0;
+		text-align: right;
+	}
+	
+	#ateneo-fluid {
+		inset: 770rem 50% auto auto;
+		translate: calc(50% - 2rem) 0;
+	}
+	
+	#march-of-women {
+		inset: 800rem 50% auto auto;
+		translate: calc(50% + 3rem) 0;
+	}
+	#march-of-women h2 {
+		right: 0;
+		text-align: right;
+	}
+	
+	/* april */
+	#jsec-challenge {
+		inset: 830rem 50% auto auto;
+		translate: calc(50% - 3rem) 0;
+	}
+	
+	#fa-lagnat-laki {
+		inset: 880rem 50% auto auto;
+		translate: calc(50% + 1rem) 0;
+	}
+	
+	/* may */
+	#labor-day-protest {
+		inset: 930rem 50% auto auto;
+		translate: calc(50% + 0rem) 0;
+	}
+	
+	#ateneo-bonfire {
+		inset: 975rem 50% auto auto;
+		translate: calc(50% - 1rem) 0;
+	}
 }
