@@ -26,7 +26,7 @@ header > p:nth-of-type(2) {
 
 .photo-container {
   width: 100vw;
-	height: 750rem;
+	height: 725rem;
 	position: relative;
 	margin-top: 5rem;
 }
@@ -283,4 +283,50 @@ header > p:nth-of-type(2) {
 #love-box-2024 {
 	inset: 520rem 50% auto auto;
 	translate: calc(50% + 15rem) 0;
+}
+
+/* march */
+#under-the-stars {
+	inset: 545rem 50% auto auto;
+	translate: calc(50% + 12rem) 0;
+}
+#under-the-stars h2 {
+	right: 0;
+	text-align: right;
+}
+
+#ateneo-fluid {
+	inset: 565rem 50% auto auto;
+	translate: calc(50% - 19rem) 0;
+}
+
+#march-of-women {
+	inset: 585rem 50% auto auto;
+	translate: calc(50% + 9rem) 0;
+}
+#march-of-women h2 {
+	right: 0;
+	text-align: right;
+}
+
+/* april */
+#jsec-challenge {
+	inset: 615rem 50% auto auto;
+	translate: calc(50% - 9rem) 0;
+}
+
+#fa-lagnat-laki {
+	inset: 640rem 50% auto auto;
+	translate: calc(50% + 12rem) 0;
+}
+
+/* may */
+#labor-day-protest {
+	inset: 670rem 50% auto auto;
+	translate: calc(50% + 8rem) 0;
+}
+
+#ateneo-bonfire {
+	inset: 700rem 50% auto auto;
+	translate: calc(50% - 12rem) 0;
 }
