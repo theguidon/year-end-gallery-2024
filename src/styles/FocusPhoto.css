@@ -346,6 +346,11 @@ header > p:nth-of-type(2) {
 		inset: auto auto 0 auto;
 	}
 
+	.marquee-photo {
+		width: 10rem;
+		height: 10rem;
+	}
+
 	#blue-rose-2023 {
 		translate: calc(50% - 8rem) 0;
 	}

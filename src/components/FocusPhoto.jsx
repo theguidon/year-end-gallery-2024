@@ -22,11 +22,11 @@ const FocusPhoto = ({ setIsLandingVisible }) => {
 
   const [isMenuVisible, setIsMenuVisible] = useState(false);
 
-	const galleryRef = useRef(null)
-	const [galleryHeight, setGalleryHeight] = useState(0)
-	useEffect(() => {
-		setGalleryHeight(galleryRef.current.clientHeight)
-	}, [])
+  const galleryRef = useRef(null);
+  const [galleryHeight, setGalleryHeight] = useState(0);
+  useEffect(() => {
+    setGalleryHeight(galleryRef.current.clientHeight);
+  }, []);
 
   return (
     <>
@@ -64,22 +64,52 @@ const FocusPhoto = ({ setIsLandingVisible }) => {
         })}
       </div>
       <div className="revoir">
-        <Marquee className="marquee">
-          {photoData.map((event, i) => {
-            return (
-              <img
-                key={i}
-                src={event.photos[0].url}
-                className="marquee-photo"
-                loading="lazy"
-              />
-            );
-          })}
-        </Marquee>
-        <a
-          className="return-to-top"
-          href="#"
-        >
+        {window.innerWidth <= 768 ? (
+          <>
+            <Marquee className="marquee">
+              {photoData.map((event, i) => {
+                return i < photoData.length / 2 ? (
+                  <img
+                    key={i}
+                    src={event.photos[0].url}
+                    className="marquee-photo"
+                    loading="lazy"
+                  />
+                ) : (
+                  <></>
+                );
+              })}
+            </Marquee>
+            <Marquee className="marquee" direction="right">
+              {photoData.map((event, i) => {
+                return i >= photoData.length / 2 ? (
+                  <img
+                    key={i}
+                    src={event.photos[0].url}
+                    className="marquee-photo"
+                    loading="lazy"
+                  />
+                ) : (
+                  <></>
+                );
+              })}
+            </Marquee>
+          </>
+        ) : (
+          <Marquee className="marquee">
+            {photoData.map((event, i) => {
+              return (
+                <img
+                  key={i}
+                  src={event.photos[0].url}
+                  className="marquee-photo"
+                  loading="lazy"
+                />
+              );
+            })}
+          </Marquee>
+        )}
+        <a className="return-to-top" href="#">
           Return to Top
         </a>
       </div>
