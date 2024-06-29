@@ -42,6 +42,7 @@
 	background: linear-gradient(to bottom, #181818, gray);
 }
 .credits-right {
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;

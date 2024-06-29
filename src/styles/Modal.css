@@ -2,23 +2,25 @@
 	background: black;
 	position: fixed;
 	inset: 0;
-	display: flex;
-	justify-content: center;
 	z-index: 99;
+	overflow-y: scroll;
 }
 	
 .modal {
-	width: 90%;
+	width: 60%;
 	max-width: 65rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	padding: 2rem;
+	margin: auto;
+	margin-block: 1rem;
 }
 
 .modal-photo {
 	max-width: calc(100% - 2rem);
+	max-height: 80vh;
 	border-image: url("../assets/images/PhotoFrame.png") 1 / 1px / 1rem;
 }
 
@@ -93,4 +95,36 @@
 .modal .deco .deco-plus-square:nth-of-type(2) {
 	inset: 8% auto auto 1%;
 	width: 10rem;
+}
+
+@media (max-width: 964px) {
+	.modal-text {
+		flex-direction: column;
+		align-items:unset ;
+	}
+	.modal-text .modal-description {
+		max-width: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.modal {
+		width: 90%;
+		padding: 1rem;
+	}
+
+	.modal .meta h2 {
+		font-size: 2.75rem;
+	}
+	.modal .meta p {
+		font-size: 1rem;
+	}
+
+	.modal-description {
+		font-size: 1rem;
+	}
+
+	.close-button {
+		inset: 0.75rem 0.75rem auto auto;
+	}
 }
