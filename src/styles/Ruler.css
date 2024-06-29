@@ -4,6 +4,7 @@
 	position: fixed;
 	inset: 3rem 3rem auto auto;
 	z-index: 10;
+	pointer-events: none;
 }
 
 .month {
@@ -59,4 +60,22 @@
 	position: absolute;
 	inset: 0 auto auto auto;
 	translate: -400% -50%;
+}
+
+@media (max-width: 640px) {
+	.ruler {
+		inset: 1rem 1rem auto auto;
+	}
+
+	.month {
+		height: 2.6rem;
+	}
+	.month::before {
+		font-size: 0.875rem;
+	}
+
+	.date-pointer {
+		height: 1rem;
+		translate: -350% -50%;
+	}
 }

@@ -4,6 +4,9 @@
 	inset: 0;
 	z-index: 99;
 	overflow-y: scroll;
+	display: flex;
+	justify-content: center;
+	align-items: safe center;
 }
 	
 .modal {
@@ -14,8 +17,7 @@
 	align-items: center;
 	justify-content: center;
 	padding: 2rem;
-	margin: auto;
-	margin-block: 1rem;
+	margin-top: 1rem;
 }
 
 .modal-photo {

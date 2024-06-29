@@ -34,7 +34,7 @@ const Ruler = ({ galleryHeight }) => {
         },
       },
       ease: "none",
-      y: 580,
+      y: window.innerWidth <= 640 ? 530 : 580,
     });
   });
 

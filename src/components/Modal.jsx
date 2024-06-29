@@ -16,7 +16,7 @@ const Modal = ({ event, setIsModal }) => {
   return (
     <div className="modal-wrapper">
       <div className="modal">
-   <img className="modal-photo" src={event.photos[photoNo].url} />
+        <img className="modal-photo" src={event.photos[photoNo].url} />
         <div className="modal-photo-nav">
           <img
             src={arrow}

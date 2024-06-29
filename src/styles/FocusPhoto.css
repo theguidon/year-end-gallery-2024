@@ -514,38 +514,42 @@ header > p:nth-of-type(2) {
 		height: 1000rem;
 	}
 
+	.photo-container .landing-menu {
+		inset: 1rem auto auto 1rem;
+	}
+
 	/* june */
 	#blue-rose-2023 {
 		inset: 10rem 50% auto auto;
-		translate: calc(50% - 3rem) 0;
+		translate: calc(50% - 1rem) 0;
 	}
 	
 	#qc-pride-march {
 		inset: 50rem 50% auto auto;
-		translate: calc(50% + 2rem) 0;
+		translate: calc(50% + 1rem) 0;
 	}
 	
 	/* july */
 	#peoples-sona {
 		inset: 110rem 50% auto auto;
-		translate: calc(50% - 3rem) 0;
+		translate: calc(50% - 1rem) 0;
 	}
 	
 	/* august */
 	#orsem-muli {
 		inset: 180rem 50% auto auto;
-		translate: calc(50% + 3rem) 0;
+		translate: calc(50% + 1rem) 0;
 	}
 	
 	#o-night {
 		inset: 203rem 50% auto auto;
-		translate: calc(50% - 2rem) 0;
+		translate: calc(50% - 0.5rem) 0;
 	}
 	
 	/* september */
 	#coa-recweek {
 		inset: 252rem 50% auto auto;
-		translate: calc(50% - 2rem) 0;
+		translate: calc(50% - 0.5rem) 0;
 	}
 	#coa-recweek h2 {
 		inset: -30% auto auto auto;
@@ -553,7 +557,7 @@ header > p:nth-of-type(2) {
 	
 	#cheer-rally-2023 {
 		inset: 265rem 50% auto auto;
-		translate: calc(50% + 2rem) 0;
+		translate: calc(50% + 0.5rem) 0;
 	}
 	
 	#martial-law-commemoration {
@@ -566,23 +570,23 @@ header > p:nth-of-type(2) {
 	
 	#ta-ardor {
 		inset: 297rem 50% auto auto;
-		translate: calc(50% - 3rem) 0;
+		translate: calc(50% - 1rem) 0;
 	}
 	
 	#shippey-lecture {
 		inset: 311rem 50% auto auto;
-		translate: calc(50% + 2rem) 0;
+		translate: calc(50% + 0.5rem) 0;
 	}
 	
 	/* october */
 	#talab {
 		inset: 330rem 50% auto auto;
-		translate: calc(50% - 2rem) 0;
+		translate: calc(50% - 0.5rem) 0;
 	}
 	
 	#one-big-pride {
 		inset: 344rem 50% auto auto;
-		translate: calc(50% + 2rem) 0;
+		translate: calc(50% + 0.5rem) 0;
 	}
 	
 	#sarita {
@@ -603,13 +607,13 @@ header > p:nth-of-type(2) {
 	
 	#bsk-elections {
 		inset: 391rem 50% auto auto;
-		translate: calc(50% + 2rem) 0;
+		translate: calc(50% + 0.5rem) 0;
 	}
 	
 	/* november */
 	#lsogc-dog-parade {
 		inset: 413rem 50% auto auto;
-		translate: calc(50% - 2rem) 0;
+		translate: calc(50% - 0.5rem) 0;
 	}
 	#lsogc-dog-parade h2 {
 		inset: auto auto -30% auto;
@@ -623,28 +627,28 @@ header > p:nth-of-type(2) {
 	#one-big-fight-with-palestine h2 {
 		inset: auto 0 -55% auto;
 		text-align: right;
+		max-width: 15rem;
 	}
 	
 	#piston-transport-strike {
 		inset: 446rem 50% auto auto;
-		translate: calc(50% - 1.5rem) 0;
+		translate: calc(50% - 0.5rem) 0;
 	}
 	#piston-transport-strike h2 {
-		inset: auto auto -50% -20%;
+		inset: auto auto -50% -5%;
 	}
 	
 	#mvp-christmas-tree {
-		inset: 460rem 50% auto auto;
-		translate: calc(50% + 3rem) 0;
+		inset: 463rem 50% auto auto;
+		translate: calc(50% + 1rem) 0;
 	}
 	#mvp-christmas-tree h2 {
-		inset: auto 0 -30% auto;
+		inset: auto 0 -50% auto;
 		text-align: right;
-		max-width: none;
 	}
 	
 	#multisectoral-mobilization-in-solidarity-with-palestine {
-		inset: 475rem 50% auto auto;
+		inset: 480rem 50% auto auto;
 		translate: calc(50% - 1rem) 0;
 	}
 	#multisectoral-mobilization-in-solidarity-with-palestine h2 {
@@ -706,7 +710,7 @@ header > p:nth-of-type(2) {
 	/* march */
 	#under-the-stars {
 		inset: 750rem 50% auto auto;
-		translate: calc(50% + 2rem) 0;
+		translate: calc(50% + 1rem) 0;
 	}
 	#under-the-stars h2 {
 		right: 0;
@@ -715,12 +719,12 @@ header > p:nth-of-type(2) {
 	
 	#ateneo-fluid {
 		inset: 770rem 50% auto auto;
-		translate: calc(50% - 2rem) 0;
+		translate: calc(50% - 1rem) 0;
 	}
 	
 	#march-of-women {
 		inset: 800rem 50% auto auto;
-		translate: calc(50% + 3rem) 0;
+		translate: calc(50% + 1rem) 0;
 	}
 	#march-of-women h2 {
 		right: 0;
@@ -730,7 +734,7 @@ header > p:nth-of-type(2) {
 	/* april */
 	#jsec-challenge {
 		inset: 830rem 50% auto auto;
-		translate: calc(50% - 3rem) 0;
+		translate: calc(50% - 1rem) 0;
 	}
 	
 	#fa-lagnat-laki {
