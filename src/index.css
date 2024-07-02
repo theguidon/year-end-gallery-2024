@@ -9,5 +9,5 @@
 }
 
 :root {
-  background: black;
+	background: url("./assets/images/background.png") 100vw;
 }

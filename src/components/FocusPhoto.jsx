@@ -12,7 +12,7 @@ import Ruler from "./Ruler.jsx";
 
 import Marquee from "react-fast-marquee";
 
-const FocusPhoto = ({ setIsLandingVisible }) => {
+const FocusPhoto = () => {
   const [isModal, setIsModal] = useState(false);
   useEffect(() => {
     document.body.style.overflow = isModal ? "hidden" : "unset";
